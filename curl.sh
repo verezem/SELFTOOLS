@@ -18,6 +18,7 @@ year=$1 # year is the first argument of the srpt
 fstl=$2 # fisrt layer to be processed
 lstl=$3 # last layer to be processed
 
+
 # path to workdir
 WRKDIR=$WORKDIR/TMP_CURL/$year
 mkdir -p $WRKDIR # -p is to avoid mkdir if exists, and create a parent if needed
@@ -35,7 +36,6 @@ for ufile in ${CONFCASE}_y${year}m??*.${freq}_gridU.nc ; do
    out=$(echo $ufile | sed -e "s/gridU/curl/g") 
    cdfcurl -u $ufile vozocrtx -v $vfile vomecrty -overf -l ${fstl}-${lstl} -o $out
 done
-exit
 # Concatenation and storing
 mkdir -p $DIAGDIR/$year
 ncrcat *_curl.nc ${CONFCASE}_y${year}.${freq}_curl.nc
