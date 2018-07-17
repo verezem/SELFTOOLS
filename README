@@ -1,1 +1,13 @@
  This is a git repository for development of Polina's SELFTOOLS
+
+ 1. First Edit the header file to make it suitable for your NEMO configuration.
+
+ 2. meta_mean.sh file works for mean_ssh.sh and mean_fwflx.sh launch. Check what particular script is chosen there. 
+
+ 3. mean_ssh.sh and mean_fwflx.sh computes yearly means of sea surface height and fresh water flux (via surface) correspondingly.
+
+ 4. transport.sh computes mean water volume tranport through the sections specified in the header.sh file. 
+
+ 5. After all yearly means are computed, you can run yearmean.sh script which yields to period mean for all variables. 
+
+ 6. Now you have everything to plot the balance! (wfbal.py)
