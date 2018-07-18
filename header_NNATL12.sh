@@ -5,7 +5,7 @@
 
 # Name of config and case
 CONFIG=NNATL12
-CASE=MP5
+CASE=MP9
 
 # Frequency of the output used in this case
 freq=5d
