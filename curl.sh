@@ -9,7 +9,7 @@ source ./header.sh
  
 # usage instructions
 if [ $# = 0 ] ; then
-   echo " USAGE: $(basename $0) <year> <first layer> <last layer>"
+   echo " USAGE: $(basename $0) <year> <first layer>" 
    exit
 fi 
 
@@ -34,7 +34,7 @@ $cmdcp # command set in header for extra copy (mask file f.ex.)
 for ufile in ${CONFCASE}_y${year}m??*.${freq}_gridU.nc ; do
    vfile=$(echo $ufile | sed -e "s/gridU/gridV/g")
    out=$(echo $ufile | sed -e "s/gridU/curl/g") 
-   cdfcurl -u $ufile vozocrtx -v $vfile vomecrty -overf -l ${fstl}-${lstl} -o $out
+   cdfcurl -u $ufile vozocrtx -v $vfile vomecrty -overf -l ${fstl} -o $out
 done
 # Concatenation and storing
 mkdir -p $DIAGDIR/$year
