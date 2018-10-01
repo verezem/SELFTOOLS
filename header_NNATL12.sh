@@ -5,10 +5,10 @@
 
 # Name of config and case
 CONFIG=NNATL12
-CASE=MP9
+CASE=NAD1
 
 # Frequency of the output used in this case
-freq=5d
+freq=1d
 
 CONFCASE=${CONFIG}-${CASE}
 
@@ -36,10 +36,16 @@ EOF
 eof
 
 # grid type and varaible type
-GRID1=gridT
+GRID1=gridTsurf #if 1d output is used
 GRID2=flxT
+GRID3=icemod3
 SSH=sossheig
 LHF=solhflup
+NET=sohefldo
+SIC=siconc
 PRECIP=sowapre
 DAMP=sowafld
 RNF=sornf
+SST=sosstsst
+SSS=sosaline
+MXL10=somxl010

@@ -44,7 +44,7 @@ copy_png_to_web()  {
           scp $scp_port $@ drakkar@${web_host}:DRAKKAR/$CONFIG/${CONFCASE}/BALANCE/
                   }
 
-yr1=1992
+yr1=1993
 yr2=2015
 WORKDIR=$DIAGDIR/$yr1-$yr2/
 #echo $WORKDIR
