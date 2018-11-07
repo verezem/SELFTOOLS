@@ -26,7 +26,7 @@ fi
 year=$1 # year is the first argument of the srpt
 
 # path to workdir
-WRKDIR=$WORKDIR/TMP_MEAN/$year
+WRKDIR=$WORKDIR/TMP$$/$year
 mkdir -p $WRKDIR # -p is to avoid mkdir if exists, and create a parent if needed
 
 cd $WRKDIR
@@ -56,5 +56,5 @@ done
 mkdir -p $DIAGDIR/$year
 ncrcat -h -O ${CONFCASE}_y${year}m??*.${freq}_fwfl.nc $DIAGDIR/${year}/${CONFCASE}_y${year}.${freq}_fwfl.nc  # ncrcat -h - is no history
 
-# cd $WORKDIR/TMP_MEAN
-# rm -rf $year   # in order to erase tmp directory
+cd $WORKDIR
+rm -rf ./TMP$$   # in order to erase tmp directory

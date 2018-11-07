@@ -4,11 +4,11 @@
 #SBATCH --ntasks-per-node=24
 #SBATCH --threads-per-core=1
 #SBATCH --constraint=HSW24
-#SBATCH -J trp_diag
-#SBATCH -e ztrp.e%j
-#SBATCH -o ztrp.o%j
-#SBATCH --time=01:40:00
-##SBATCH --dependency=singleton
+#SBATCH -J eke_diag
+#SBATCH -e zeke.e%j
+#SBATCH -o zeke.o%j
+#SBATCH --time=00:10:00
+#SBATCH --dependency=singleton
 #SBATCH --exclusive
 
 #set -x
@@ -19,7 +19,7 @@ cmd="mpirun --map-by node"
 
 n=0
 for y in {1992..2015} ; do
-  cmd="$cmd -np 1 ./transport.sh $y :"
+  cmd="$cmd -np 1 ./eke.sh $y :"
 done
 cmd=${cmd%:}
 $cmd

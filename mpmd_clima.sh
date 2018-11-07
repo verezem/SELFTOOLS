@@ -1,13 +1,13 @@
 #!/bin/bash
 #SBATCH --nodes=1
-#SBATCH --ntasks=24
-#SBATCH --ntasks-per-node=24
+#SBATCH --ntasks=12
+#SBATCH --ntasks-per-node=12
 #SBATCH --threads-per-core=1
 #SBATCH --constraint=HSW24
-#SBATCH -J trp_diag
-#SBATCH -e ztrp.e%j
-#SBATCH -o ztrp.o%j
-#SBATCH --time=01:40:00
+#SBATCH -J clim_sec
+#SBATCH -e zsecc.e%j
+#SBATCH -o zsecc.o%j
+#SBATCH --time=00:15:00
 ##SBATCH --dependency=singleton
 #SBATCH --exclusive
 
@@ -17,9 +17,8 @@ ulimit -s unlimited
 
 cmd="mpirun --map-by node"
 
-n=0
-for y in {1992..2015} ; do
-  cmd="$cmd -np 1 ./transport.sh $y :"
+for mon in {01..12} ; do
+  cmd="$cmd -np 1 ./mon_clima.sh $mon :"
 done
 cmd=${cmd%:}
 $cmd

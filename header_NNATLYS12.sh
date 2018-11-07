@@ -4,21 +4,21 @@
 # runnning cdftools and other self-written tools.
 
 # Name of config and case
-CONFIG=NNATL12
-CASE=MP13
+CONFIG=NNATLYS12
+CASE=V1
 
 # Frequency of the output used in this case
-freq=5d
+freq=1d
 
 CONFCASE=${CONFIG}-${CASE}
 
 # Set constant variables
 lv=2.5e6 # latent heat of vaporization [J/kg] or [m2/s2]
-ts=86400. # number of seconds per day
+ts=1 # beacuse in GLORYS data they are already divided by 86400 s
 
 # Paths to data and codes to work with
-IDIR=$WORKDIR/$CONFIG/${CONFIG}-I
-SWDIR=$WORKDIR/$CONFIG/${CONFCASE}-S/$freq
+IDIR=/scratch/cnt0024/hmg2840/pverezem/${CONFCASE}
+SWDIR=$WORKDIR/NNATLYS12-V1
 DIAGDIR=$WORKDIR/$CONFIG/${CONFCASE}-DIAGS
 
 # define sections for particular config-case
@@ -36,21 +36,25 @@ EOF
 eof
 
 # grid type and varaible type
-GRID1=gridT #if 1d output is used
+GRID2=grid2D
+GRID1=gridT
+GRIDS=gridS
 GRIDU=gridU
 GRIDV=gridV
-GRID2=flxT
-GRID3=icemod3
 SSH=sossheig
-LHF=solhflup
+LHF=socelatf
+SHF=socesenf
+PRECIP=sowaprec
+RNF=sorunoff
 NET=sohefldo
 SIC=siconc
-PRECIP=sowapre
-DAMP=sowafld
-RNF=sornf
 SST=votemper
 SSS=vosaline
 MXL10=somxl010
-lev1000=47
-depu=depthu
-depv=depthv
+lev1000=35
+depu=deptht
+depv=deptht
+# define variable names for config
+exsal="-s ${CONFCASE}_y${year}m${mon}_${GRIDS}.nc"
+#extra="-M NNATLYS12_byte_mask.nc tmask"
+#cmdcp="cp $IDIR/NNATLYS12_byte_mask.nc ." #copying special files for particular case

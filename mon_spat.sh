@@ -17,7 +17,7 @@ fi
 year=$1 # year is the first argument of the srpt
 
 # path to workdir
-WRKDIR=$WORKDIR/TMP_MEAN/$year
+WRKDIR=$WORKDIR/TMP_MON/$year
 mkdir -p $WRKDIR # -p is to avoid mkdir if exists, and create a parent if needed
 
 cd $WRKDIR
@@ -39,5 +39,5 @@ ncks -v sohefldo,solhflup,sosbhfup,nav_lat,nav_lon ${CONFCASE}_y${year}m03.${fre
 mkdir -p $DIAGDIR/$year
 mv ${CONFCASE}_y${year}m03_siconc.nc $DIAGDIR/$year
 mv ${CONFCASE}_y${year}m03_netflux.nc $DIAGDIR/$year
-cd $WORKDIR/TMP_MEAN
+cd $WORKDIR/TMP_MON
 rm -rf $year   # in order to erase tmp directory

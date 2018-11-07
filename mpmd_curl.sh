@@ -4,10 +4,10 @@
 #SBATCH --ntasks-per-node=24
 #SBATCH --threads-per-core=1
 #SBATCH --constraint=HSW24
-#SBATCH -J trp_diag
-#SBATCH -e ztrp.e%j
-#SBATCH -o ztrp.o%j
-#SBATCH --time=01:40:00
+#SBATCH -J curl_diag
+#SBATCH -e zcurl.e%j
+#SBATCH -o zcurl.o%j
+#SBATCH --time=00:15:00
 ##SBATCH --dependency=singleton
 #SBATCH --exclusive
 
@@ -17,9 +17,8 @@ ulimit -s unlimited
 
 cmd="mpirun --map-by node"
 
-n=0
 for y in {1992..2015} ; do
-  cmd="$cmd -np 1 ./transport.sh $y :"
+  cmd="$cmd -np 1 ./curl.sh $y 19 :"
 done
 cmd=${cmd%:}
 $cmd
