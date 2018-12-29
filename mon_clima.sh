@@ -21,7 +21,7 @@ mkdir -p $WORKDIR/TMP$$
 cd $WORKDIR/TMP$$
 for sec in 60N AR7W ovide A24N ; do
    mkdir -p $DIAGDIR/${mon}
-      for year in {1992..2015} ; do
+      for year in {2002..2015} ; do
          ln -sf $DIAGDIR/${year}/${CONFCASE}_y${year}_${sec}.nc ./
          ncks -F -O -d time_counter,${mon} ${CONFCASE}_y${year}_${sec}.nc $DIAGDIR/${mon}/${CONFCASE}_y${year}m${mon}_${sec}.nc 
       done

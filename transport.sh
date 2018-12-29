@@ -23,8 +23,8 @@ WRKDIR=$WORKDIR/TMP_TRSP/$year
 mkdir -p $WRKDIR # -p is to avoid mkdir if exists, and create a parent if needed
 cp $section_file $WRKDIR/$section_file
 cd $WRKDIR
-#ln -sf $SWDIR/$year/${CONFCASE}_y${year}m??*.${freq}_grid[TUV].nc ./  # read flux files
-ln -sf $SWDIR/$year/${CONFCASE}_y${year}m??*.${freq}_grid[TSUV].nc ./  # read flux files
+ln -sf $SWDIR/$year/${CONFCASE}_y${year}m??*.${freq}_grid[TUV].nc ./  # read flux files
+#ln -sf $SWDIR/$year/${CONFCASE}_y${year}m??*.${freq}_grid[TSUV].nc ./  # read flux files
 cp $IDIR/${CONFIG}_mesh_zgr.nc mesh_zgr.nc
 cp $IDIR/${CONFIG}_mesh_hgr.nc mesh_hgr.nc
 cp $IDIR/${CONFIG}_byte_mask.nc mask.nc
@@ -39,8 +39,8 @@ tag=$(echo $u | awk -F_ '{print $2}' ) # magic
 namesec=$(head -1 $section_file)
 sfx=${tag}_transport
 if [ ! -f ${namesec}_${sfx}.nc ] ; then
-#cdftransport -u $u -v $v -t $t -TS -sfx $sfx < $section_file
-cdftransport -u $u -v $v -t $t -s $s -TS -sfx $sfx < $section_file
+cdftransport -u $u -v $v -t $t -TS -sfx $sfx < $section_file
+#cdftransport -u $u -v $v -t $t -s $s -TS -sfx $sfx < $section_file
 fi
 done
 

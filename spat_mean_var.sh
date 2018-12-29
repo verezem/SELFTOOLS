@@ -22,7 +22,7 @@ WRKDIR=$WORKDIR/TMP_MEAN/$year
 mkdir -p $WRKDIR # -p is to avoid mkdir if exists, and create a parent if needed
 
 
-for var in $GRIDU $GRIDV ; do
+for var in $GRIDU $GRIDV $GRID1; do
 #for var in T ; do
 cd $WRKDIR
 ln -sf $SWDIR/$year/${CONFCASE}_y${year}m??*.${freq}_${var}.nc ./
@@ -66,8 +66,8 @@ done
 
 # Storing
 mkdir -p $DIAGDIR/$year
-#for var in $GRID1 $GRIDS $GRIDU $GRIDV ; do
-for var in $GRIDU $GRIDV ; do
+for var in $GRID1 $GRIDS $GRIDU $GRIDV ; do
+#for var in $GRIDU $GRIDV ; do
 for lev in 1 $lev1000 ; do
 mv ${CONFCASE}_y${year}.l${lev}_m${var}.nc $DIAGDIR/$year
 mv ${CONFCASE}_y${year}.l${lev}_m${var}2.nc $DIAGDIR/$year

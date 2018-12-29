@@ -36,25 +36,27 @@ ntrpdat = nc.Dataset(ntrpfile)
 strpdat = nc.Dataset(strpfile)
 
 twflx = np.squeeze(np.array(flxdat.variables['sum_sowaflup'][:])*1e-9) # total upward (extracted) water flux [kg/s]
-evap = np.squeeze(np.array(flxdat.variables['sum_3Dsoevap'][:])*1e-9) # integrated mean evaporation [kg/s]
+evap = np.squeeze(np.array(flxdat.variables['sum_3Dsoevap'][:])*1e-9*-1) # integrated mean evaporation [kg/s]
 prec = np.squeeze(np.array(flxdat.variables['sum_3Dsoprecip'][:])*1e-9*-1)#.13 # integrated mean amount of precipitaition [kg/s] !! 1.13 - checking for precip correction
-runf = np.squeeze(np.array(flxdat.variables['sum_3Dsornf'][:])*1e-9*-1) # integrated mean runoff
-damp = np.squeeze(np.array(flxdat.variables['sum_3Dsowafld'][:])*1e-9) # integrated mean damping term
+#runf = np.squeeze(np.array(flxdat.variables['sum_3Dsornf'][:])*1e-9*-1) # integrated mean runoff
+runf = np.squeeze(np.array(flxdat.variables['sum_3Dsorunoff'][:])*1e-9) # integrated mean runoff
+#damp = np.squeeze(np.array(flxdat.variables['sum_3Dsowafld'][:])*1e-9) # integrated mean damping term
 
 strp = np.squeeze(np.array(strpdat.variables['vtrp'][:])) # southern boundary integrated transport, Sv
 ntrp = np.squeeze(np.array(ntrpdat.variables['vtrp'][:])) # northern boundary integrated transport, Sv
 ttrp = strp+ntrp
-twflx2 = evap+prec+runf+damp
+#twflx2 = evap+prec+runf+damp
+twflx2 = evap+prec+runf
 balc = ttrp+twflx2
 print twflx.shape
 
 # draw bar plot with mean and sum values
 # calculate balbance and compare to TWFLX!!!!!
 fig, ax = plt.subplots()
-colors=['plum','thistle', 'wheat', 'tan', 'darkkhaki', '#9c9f84', 'steelblue']
-x = np.arange(7)
-flx = [np.mean(twflx2),np.mean(balc), np.mean(ttrp), np.mean(evap), np.mean(prec), np.mean(runf), np.mean(damp)]
-sflx = [np.sum(twflx),np.sum(balc), np.sum(ttrp), np.sum(evap), np.sum(prec), np.sum(runf), np.sum(damp)]
+colors=['plum','thistle', 'wheat', 'tan', 'darkkhaki', '#9c9f84']#, 'steelblue']
+x = np.arange(6)
+flx = [np.mean(twflx2),np.mean(balc), np.mean(ttrp), np.mean(evap), np.mean(prec), np.mean(runf)]#, np.mean(damp)]
+sflx = [np.sum(twflx),np.sum(balc), np.sum(ttrp), np.sum(evap), np.sum(prec), np.sum(runf)]#, np.sum(damp)]
 np.array(flx)
 plt.bar(x,flx, color=colors)
 #plt.bar(x,sflx, color=colors)
@@ -64,7 +66,7 @@ plt.xticks([0.4,1.4,2.4,3.4,4.4,5.4,6.4,7.4],('Net\nsflx','Balance','Ttrp', 'Eva
 plt.grid()
 plt.savefig(conf+'-'+case+'_bar_fwflx_mean.png', format='png', dpi=200)
 #plt.show()
-print np.mean(twflx2),np.mean(balc), np.mean(ttrp), np.mean(evap), np.mean(prec), np.mean(runf), np.mean(damp)
+print np.mean(twflx2),np.mean(balc), np.mean(ttrp), np.mean(evap), np.mean(prec), np.mean(runf)#, np.mean(damp)
 
 # plot the time seria for yearly averages
 fig, ax2 = plt.subplots()
@@ -75,7 +77,7 @@ plt.plot(xx,ttrp,'peru',lw=2,label='ttrp')
 plt.plot(xx,evap,'slategray',linestyle=':',lw=2,label='evap')
 plt.plot(xx,prec,'darkkhaki',linestyle='-.',lw=2, label='precip')
 plt.plot(xx,runf,'#9c9f84',linestyle='-.',lw=2, label='runoff')
-plt.plot(xx,damp,'royalblue',linestyle='--',lw=2,label='damping')
+#plt.plot(xx,damp,'royalblue',linestyle='--',lw=2,label='damping')
 plt.grid()
 plt.legend(loc='best', prop={'size': 7})
 plt.title('Yearly means of water flux balance components:\n'+conf+'-'+case)
