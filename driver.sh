@@ -10,5 +10,6 @@
 #sbatch ./mpmd_pv.sh # potential vorticity
 #sbatch ./mpmd_sec.sh # AR7W, 60N, A24N, OVIDE sections
 ## After all:
-sbatch ./mpmd_spat.sh # mean spatial fields distribution
+#sbatch ./mpmd_spat.sh # mean spatial fields distribution
+## After spat:
 sbatch ./mpmd_eke.sh # EKE

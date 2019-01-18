@@ -7,7 +7,7 @@
 #SBATCH -J sec_diag
 #SBATCH -e zsec.e%j
 #SBATCH -o zsec.o%j
-#SBATCH --time=01:10:00
+#SBATCH --time=00:30:00
 ##SBATCH --dependency=singleton
 #SBATCH --exclusive
 

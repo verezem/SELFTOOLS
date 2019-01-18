@@ -38,7 +38,7 @@ done
 # cdfmoy - for time averaging - we now have monthly means of 2d fields
 for mon in {01..12} ; do
 cdfmoy -l ${CONFCASE}_y${year}m${mon}*.${freq}_0m${GRID1}.nc -o ${CONFCASE}_y${year}m${mon}_0mvotemper
-cdfmoy -l ${CONFCASE}_y${year}m${mon}*.${freq}_0m${GRIDS}.nc -o ${CONFCASE}_y${year}m${mon}_0mvosaline
+cdfmoy -l ${CONFCASE}_y${year}m${mon}*.${freq}_0m${GRID1}.nc -o ${CONFCASE}_y${year}m${mon}_0mvosaline
 done
 
 # Main body
