@@ -45,13 +45,9 @@ else
     cdfsigi -t $fl -r $lev -s $s -o $out 
 fi
 done
-for mon in {01..12} ; do
-    cdfmoy -l  ${CONFCASE}_y${year}m${mon}d??.${freq}_sigma${lev}.nc -o ${CONFCASE}_y${year}m${mon}_sigma${lev}
-done
-
 # Concatenation and storing
 mkdir -p $DIAGDIR/$year
-ncrcat -O -h ${CONFCASE}_y${year}m??_sigma${lev}.nc $DIAGDIR/${year}/${CONFCASE}_y${year}_sigma${lev}.nc  # ncrcat -h - is no history
+ncrcat -O -h ${CONFCASE}_y${year}m${mon}d??.${freq}_sigma${lev}.nc $DIAGDIR/${year}/${CONFCASE}_y${year}_sigma${lev}.nc  # ncrcat -h - is no history
 #ncrcat -O -h ${CONFCASE}_y${year}m??_sigmantr.nc $DIAGDIR/${year}/${CONFCASE}_y${year}_sigmantr.nc  # ncrcat -h - is no history
 
 cd $WORKDIR/TMP_SEC

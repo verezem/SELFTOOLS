@@ -17,34 +17,36 @@ fi
 # Calculation of yearly means with cdfmoy for transport, fresh water flux and sssth means in the files we have in diags dir
 mkdir -p $WORKDIR/TMP$$
 cd $WORKDIR/TMP$$
-mkdir -p $DIAGDIR/1993-2015
+mkdir -p $DIAGDIR/1992-2015
 
-for yr in {1993..2015} ; do
+for yr in {1992..2015} ; do
 ln -sf $DIAGDIR/${yr}/${CONFCASE}_y????_0m${sal}.nc .
 #ln -sf $DIAGDIR/${yr}/${CONFCASE}_y????_${sal}.nc .
 ln -sf $DIAGDIR/${yr}/${CONFCASE}_y????_0m${sal}mean.nc .
 #ln -sf $DIAGDIR/${yr}/${CONFCASE}_y????_${sal}mean.nc .
 done
- Concatenate them betwenn each other for the whole period of run
+# Concatenate them betwen each other for the whole period of run
 for typ in ${sal}mean ${sal} ; do 
-    ncrcat -O ${CONFCASE}_y????_0m${typ}.nc $DIAGDIR/1993-2015/${CONFCASE}_y1993-2015_0m${typ}.nc
-    #ncrcat -O ${CONFCASE}_y????_${typ}.nc $DIAGDIR/1993-2015/${CONFCASE}_y1993-2015_${typ}.nc
+    ncrcat -O ${CONFCASE}_y????_0m${typ}.nc $DIAGDIR/1992-2015/${CONFCASE}_y1992-2015_0m${typ}.nc
+    #ncrcat -O ${CONFCASE}_y????_${typ}.nc $DIAGDIR/1992-2015/${CONFCASE}_y1992-2015_${typ}.nc
 done
 
-#1992 - for NNATL12, 1993 - for NNATLYS12
-mkdir -p $DIAGDIR/1993-2010
+#1992 - for NNATL12, 1992 - for NNATLYS12
+mkdir -p $DIAGDIR/1992-2015
 
-for yr in {1993..2010} ; do
+for yr in {1992..2015} ; do
 ln -sf $DIAGDIR/${yr}/${CONFCASE}_y????_0m${sat}.nc .
+#ln -sf $DIAGDIR/${yr}/${CONFCASE}_y????_${SIC}.nc .
 #ln -sf $DIAGDIR/${yr}/${CONFCASE}_y????_${sat}.nc .
 ln -sf $DIAGDIR/${yr}/${CONFCASE}_y????_0m${sat}mean.nc .
 #ln -sf $DIAGDIR/${yr}/${CONFCASE}_y????_${sat}mean.nc .
 done
+#ncrcat -O ${CONFCASE}_y????_${SIC}.nc $DIAGDIR/1992-2015/${CONFCASE}_y1992-2015_${SIC}.nc
 # Concatenate them betwenn each other for the whole period of run
 for typ in ${sat}mean ${sat} ; do 
-    ncrcat -O ${CONFCASE}_y????_0m${typ}.nc $DIAGDIR/1993-2010/${CONFCASE}_y1993-2010_0m${typ}.nc
-    #ncrcat -O ${CONFCASE}_y????_${typ}.nc ${CONFCASE}_y1993-2010_${typ}.nc
-    #mv ${CONFCASE}_y1993-2010_${typ}.nc $DIAGDIR/1993-2010/
+    ncrcat -O ${CONFCASE}_y????_0m${typ}.nc $DIAGDIR/1992-2015/${CONFCASE}_y1992-2015_0m${typ}.nc
+    #ncrcat -O ${CONFCASE}_y????_${typ}.nc ${CONFCASE}_y1992-2015_${typ}.nc
+    #mv ${CONFCASE}_y1992-2015_${typ}.nc $DIAGDIR/1992-2015/
 done
 cd $WORKDIR
 rm -rf TMP$$   # in order to erase tmp directory

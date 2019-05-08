@@ -15,7 +15,7 @@ fi
 
 # Set working dir
 year=$1 # year is the first argument of the srpt
-lev=11 # to be changed for NNATL12
+lev=11 # for NNATLYS12 - 11
 
 # path to workdir
 WRKDIR=$WORKDIR/TMP_DRF/$year

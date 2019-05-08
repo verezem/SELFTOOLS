@@ -6,7 +6,7 @@ ulimit -s unlimited
 # This is a script to calculate SSH over domain mean values, [m]
 # Uses CDFTOOLSv4
 
-source ./header_NNATLYS12.sh
+source /scratch/cnt0024/hmg2840/pverezem/DEV/SELFTOOLS/headers/header.sh
  
 # usage instructions
 if [ $# = 0 ] ; then
@@ -24,20 +24,21 @@ mkdir -p $WRKDIR # -p is to avoid mkdir if exists, and create a parent if needed
 
 #for var in T ; do
 cd $WRKDIR
-ln -sf $SWDIR/$year/${CONFCASE}_y${year}m??*.${freq}_grid2D.nc ./
+ln -sf $SWDIR/$year/${CONFCASE}_y${year}m03*.${freq}_grid2D.nc ./
+#ln -sf $SWDIR/$year/${CONFCASE}_y${year}m03*.${freq}_flxT.nc ./
 cp $IDIR/${CONFIG}_mesh_zgr.nc mesh_zgr.nc
 cp $IDIR/${CONFIG}_mesh_hgr.nc mesh_hgr.nc
 cp $IDIR/${CONFIG}_byte_mask.nc mask.nc
 $cmdcp # command set in header for extra copy (mask file f.ex.)
 
 # Main body
-cdfmoy -l ${CONFCASE}_y${year}m??*.${freq}_grid2D.nc -max -o ${CONFCASE}_y${year}_mgrid2D
-cdfstd -l ${CONFCASE}_y${year}m??*.${freq}_grid2D.nc -o ${CONFCASE}_y${year}_sgrid2D.nc
+#cdfmoy -l ${CONFCASE}_y${year}m03*.${freq}_flxT.nc -max -o ${CONFCASE}_y${year}_mflxT
+cdfmoy -l ${CONFCASE}_y${year}m03*.${freq}_grid2D.nc -max -o ${CONFCASE}_y${year}_mflxT
 
 # Storing
 mkdir -p $DIAGDIR/$year
-mv ${CONFCASE}_y${year}_mgrid2D.nc $DIAGDIR/$year
-mv ${CONFCASE}_y${year}_mgrid2D_minmax.nc $DIAGDIR/$year
-mv ${CONFCASE}_y${year}_sgrid2D.nc $DIAGDIR/$year
+mv ${CONFCASE}_y${year}_mflxT.nc $DIAGDIR/$year
+mv ${CONFCASE}_y${year}_mflxT_minmax.nc $DIAGDIR/$year
+#mv ${CONFCASE}_y${year}_sflxT.nc $DIAGDIR/$year
 cd $WORKDIR/TMP_MXL
 rm -rf $year   # in order to erase tmp directory

@@ -1,0 +1,9 @@
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: ./spat_mxl.sh
+Node: n2742
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------

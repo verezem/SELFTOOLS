@@ -1,0 +1,700 @@
++ ulimit -s unlimited
++ source /scratch/cnt0024/hmg2840/pverezem/DEV/SELFTOOLS/headers/header.sh
+++ CONFIG=NNATLYS12
+++ CASE=V1
+++ freq=1d
+++ CONFCASE=NNATLYS12-V1
+++ lv=2.5e6
+++ ts=1
+++ IDIR=/scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1
+++ SWDIR=/scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1
+++ DIAGDIR=/scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS
+++ section_file=section.dat
+++ cat
++ ulimit -s unlimited
++ source /scratch/cnt0024/hmg2840/pverezem/DEV/SELFTOOLS/headers/header.sh
+++ CONFIG=NNATLYS12
+++ CASE=V1
+++ freq=1d
+++ CONFCASE=NNATLYS12-V1
+++ lv=2.5e6
+++ ts=1
+++ IDIR=/scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1
+++ SWDIR=/scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1
+++ DIAGDIR=/scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS
+++ section_file=section.dat
+++ cat
++ ulimit -s unlimited
++ source /scratch/cnt0024/hmg2840/pverezem/DEV/SELFTOOLS/headers/header.sh
+++ CONFIG=NNATLYS12
+++ CASE=V1
+++ freq=1d
+++ CONFCASE=NNATLYS12-V1
+++ lv=2.5e6
+++ ts=1
+++ IDIR=/scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1
+++ SWDIR=/scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1
+++ DIAGDIR=/scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS
+++ section_file=section.dat
+++ cat
++ ulimit -s unlimited
++ source /scratch/cnt0024/hmg2840/pverezem/DEV/SELFTOOLS/headers/header.sh
+++ CONFIG=NNATLYS12
+++ CASE=V1
+++ freq=1d
+++ CONFCASE=NNATLYS12-V1
+++ lv=2.5e6
+++ ts=1
+++ IDIR=/scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1
+++ SWDIR=/scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1
+++ DIAGDIR=/scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS
+++ section_file=section.dat
+++ cat
+++ GRID2=grid2D
+++ GRID1=gridT
+++ GRIDS=gridS
+++ GRIDU=gridU
+++ GRID3=grid2D
+++ GRIDV=gridV
+++ SSH=sossheig
+++ LHF=socelatf
+++ SHF=socesenf
+++ PRECIP=sowaprec
+++ RNF=sorunoff
+++ NET=sohefldo
+++ SIC=siconc
+++ SST=votemper
+++ SSS=vosaline
+++ MXL10=somxl010
+++ lev1000=35
+++ depu=deptht
+++ depv=deptht
+++ sat=votemper
+++ sal=vosaline
+++ exsal='-s NNATLYS12-V1_ym_gridS.nc'
++ '[' 1 = 0 ']'
++ year=2005
++ WRKDIR=/scratch/cnt0024/hmg2840/pverezem/TMP_MXL/2005
++ mkdir -p /scratch/cnt0024/hmg2840/pverezem/TMP_MXL/2005
++ ulimit -s unlimited
++ source /scratch/cnt0024/hmg2840/pverezem/DEV/SELFTOOLS/headers/header.sh
+++ CONFIG=NNATLYS12
+++ CASE=V1
+++ freq=1d
+++ CONFCASE=NNATLYS12-V1
+++ lv=2.5e6
+++ ts=1
+++ IDIR=/scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1
+++ SWDIR=/scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1
+++ DIAGDIR=/scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS
+++ section_file=section.dat
+++ cat
++ ulimit -s unlimited
++ source /scratch/cnt0024/hmg2840/pverezem/DEV/SELFTOOLS/headers/header.sh
+++ CONFIG=NNATLYS12
+++ CASE=V1
+++ freq=1d
+++ CONFCASE=NNATLYS12-V1
+++ lv=2.5e6
+++ ts=1
+++ IDIR=/scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1
+++ SWDIR=/scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1
+++ DIAGDIR=/scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS
+++ section_file=section.dat
+++ cat
++ ulimit -s unlimited
++ source /scratch/cnt0024/hmg2840/pverezem/DEV/SELFTOOLS/headers/header.sh
+++ CONFIG=NNATLYS12
+++ CASE=V1
+++ freq=1d
+++ CONFCASE=NNATLYS12-V1
+++ lv=2.5e6
+++ ts=1
+++ IDIR=/scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1
+++ SWDIR=/scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1
+++ DIAGDIR=/scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS
+++ section_file=section.dat
+++ cat
++ ulimit -s unlimited
++ source /scratch/cnt0024/hmg2840/pverezem/DEV/SELFTOOLS/headers/header.sh
+++ CONFIG=NNATLYS12
+++ CASE=V1
+++ freq=1d
+++ CONFCASE=NNATLYS12-V1
+++ lv=2.5e6
+++ ts=1
+++ IDIR=/scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1
+++ SWDIR=/scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1
+++ DIAGDIR=/scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS
+++ section_file=section.dat
+++ cat
++ ulimit -s unlimited
++ source /scratch/cnt0024/hmg2840/pverezem/DEV/SELFTOOLS/headers/header.sh
+++ CONFIG=NNATLYS12
+++ CASE=V1
+++ freq=1d
+++ CONFCASE=NNATLYS12-V1
+++ lv=2.5e6
+++ ts=1
+++ IDIR=/scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1
+++ SWDIR=/scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1
+++ DIAGDIR=/scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS
+++ section_file=section.dat
+++ cat
++ ulimit -s unlimited
++ source /scratch/cnt0024/hmg2840/pverezem/DEV/SELFTOOLS/headers/header.sh
+++ CONFIG=NNATLYS12
+++ CASE=V1
+++ freq=1d
+++ CONFCASE=NNATLYS12-V1
+++ lv=2.5e6
+++ ts=1
+++ IDIR=/scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1
+++ SWDIR=/scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1
+++ DIAGDIR=/scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS
+++ section_file=section.dat
+++ cat
++ ulimit -s unlimited
++ source /scratch/cnt0024/hmg2840/pverezem/DEV/SELFTOOLS/headers/header.sh
+++ CONFIG=NNATLYS12
+++ CASE=V1
+++ freq=1d
+++ CONFCASE=NNATLYS12-V1
+++ lv=2.5e6
+++ ts=1
+++ IDIR=/scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1
+++ SWDIR=/scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1
+++ DIAGDIR=/scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS
+++ section_file=section.dat
+++ cat
++ ulimit -s unlimited
++ source /scratch/cnt0024/hmg2840/pverezem/DEV/SELFTOOLS/headers/header.sh
+++ CONFIG=NNATLYS12
+++ CASE=V1
+++ freq=1d
+++ CONFCASE=NNATLYS12-V1
+++ lv=2.5e6
+++ ts=1
+++ IDIR=/scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1
+++ SWDIR=/scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1
+++ DIAGDIR=/scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS
+++ section_file=section.dat
+++ cat
++ ulimit -s unlimited
++ source /scratch/cnt0024/hmg2840/pverezem/DEV/SELFTOOLS/headers/header.sh
+++ CONFIG=NNATLYS12
+++ CASE=V1
+++ freq=1d
+++ CONFCASE=NNATLYS12-V1
+++ lv=2.5e6
+++ ts=1
+++ IDIR=/scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1
+++ SWDIR=/scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1
+++ DIAGDIR=/scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS
+++ section_file=section.dat
+++ cat
++ ulimit -s unlimited
++ source /scratch/cnt0024/hmg2840/pverezem/DEV/SELFTOOLS/headers/header.sh
+++ CONFIG=NNATLYS12
+++ CASE=V1
+++ freq=1d
+++ CONFCASE=NNATLYS12-V1
+++ lv=2.5e6
+++ ts=1
+++ IDIR=/scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1
+++ SWDIR=/scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1
+++ DIAGDIR=/scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS
+++ section_file=section.dat
+++ cat
++ cd /scratch/cnt0024/hmg2840/pverezem/TMP_MXL/2005
+++ GRID2=grid2D
+++ GRID1=gridT
+++ GRIDS=gridS
+++ GRIDU=gridU
+++ GRID3=grid2D
+++ GRIDV=gridV
+++ SSH=sossheig
+++ LHF=socelatf
+++ SHF=socesenf
+++ PRECIP=sowaprec
+++ RNF=sorunoff
+++ NET=sohefldo
+++ SIC=siconc
+++ SST=votemper
+++ SSS=vosaline
+++ MXL10=somxl010
+++ lev1000=35
+++ depu=deptht
+++ depv=deptht
+++ sat=votemper
+++ sal=vosaline
+++ exsal='-s NNATLYS12-V1_ym_gridS.nc'
++ '[' 1 = 0 ']'
++ year=2006
++ WRKDIR=/scratch/cnt0024/hmg2840/pverezem/TMP_MXL/2006
++ mkdir -p /scratch/cnt0024/hmg2840/pverezem/TMP_MXL/2006
++ cd /scratch/cnt0024/hmg2840/pverezem/TMP_MXL/2006
+++ GRID2=grid2D
+++ GRID1=gridT
+++ GRIDS=gridS
+++ GRIDU=gridU
+++ GRID3=grid2D
+++ GRIDV=gridV
+++ SSH=sossheig
+++ GRID2=grid2D
+++ LHF=socelatf
+++ SHF=socesenf
+++ PRECIP=sowaprec
+++ RNF=sorunoff
+++ NET=sohefldo
+++ SIC=siconc
+++ SST=votemper
+++ SSS=vosaline
+++ MXL10=somxl010
+++ lev1000=35
+++ GRID1=gridT
+++ GRIDS=gridS
+++ GRIDU=gridU
+++ GRID3=grid2D
+++ GRIDV=gridV
+++ SSH=sossheig
+++ LHF=socelatf
+++ SHF=socesenf
+++ PRECIP=sowaprec
+++ RNF=sorunoff
+++ NET=sohefldo
+++ SIC=siconc
+++ GRID2=grid2D
+++ GRID1=gridT
+++ GRIDS=gridS
+++ GRIDU=gridU
+++ GRID3=grid2D
+++ depu=deptht
+++ depv=deptht
+++ sat=votemper
+++ sal=vosaline
+++ exsal='-s NNATLYS12-V1_ym_gridS.nc'
+++ GRID2=grid2D
+++ GRID1=gridT
+++ GRIDS=gridS
+++ GRIDU=gridU
+++ GRID3=grid2D
+++ GRIDV=gridV
+++ SSH=sossheig
+++ LHF=socelatf
+++ SHF=socesenf
+++ PRECIP=sowaprec
+++ RNF=sorunoff
+++ NET=sohefldo
+++ SIC=siconc
+++ SST=votemper
+++ SSS=vosaline
+++ GRID2=grid2D
+++ GRID1=gridT
+++ GRIDS=gridS
+++ GRIDU=gridU
+++ GRIDV=gridV
+++ SSH=sossheig
+++ LHF=socelatf
+++ SHF=socesenf
+++ PRECIP=sowaprec
+++ RNF=sorunoff
+++ NET=sohefldo
+++ SIC=siconc
+++ SST=votemper
+++ SSS=vosaline
+++ MXL10=somxl010
+++ lev1000=35
+++ depu=deptht
+++ depv=deptht
+++ sat=votemper
+++ GRID2=grid2D
+++ GRID1=gridT
+++ GRIDS=gridS
+++ GRIDU=gridU
+++ GRID3=grid2D
+++ GRIDV=gridV
+++ SSH=sossheig
+++ LHF=socelatf
+++ SHF=socesenf
+++ PRECIP=sowaprec
+++ RNF=sorunoff
+++ NET=sohefldo
+++ SST=votemper
+++ SSS=vosaline
+++ MXL10=somxl010
+++ lev1000=35
+++ depu=deptht
+++ depv=deptht
+++ sat=votemper
+++ sal=vosaline
+++ exsal='-s NNATLYS12-V1_ym_gridS.nc'
++ '[' 1 = 0 ']'
++ year=2008
++ WRKDIR=/scratch/cnt0024/hmg2840/pverezem/TMP_MXL/2008
++ mkdir -p /scratch/cnt0024/hmg2840/pverezem/TMP_MXL/2008
+++ GRID2=grid2D
+++ GRID1=gridT
+++ GRIDS=gridS
+++ GRIDU=gridU
+++ GRID3=grid2D
+++ GRIDV=gridV
+++ SSH=sossheig
+++ LHF=socelatf
+++ SHF=socesenf
+++ PRECIP=sowaprec
+++ RNF=sorunoff
+++ NET=sohefldo
+++ SIC=siconc
+++ SST=votemper
+++ SSS=vosaline
+++ MXL10=somxl010
+++ lev1000=35
+++ MXL10=somxl010
+++ lev1000=35
+++ depu=deptht
+++ depv=deptht
+++ sat=votemper
+++ sal=vosaline
+++ exsal='-s NNATLYS12-V1_ym_gridS.nc'
++ '[' 1 = 0 ']'
+++ GRID3=grid2D
+++ GRIDV=gridV
+++ SSH=sossheig
+++ LHF=socelatf
+++ SHF=socesenf
+++ PRECIP=sowaprec
+++ RNF=sorunoff
+++ NET=sohefldo
+++ SIC=siconc
+++ SST=votemper
+++ SSS=vosaline
+++ MXL10=somxl010
+++ lev1000=35
+++ depu=deptht
+++ depv=deptht
+++ sat=votemper
+++ sal=vosaline
+++ sal=vosaline
+++ exsal='-s NNATLYS12-V1_ym_gridS.nc'
++ '[' 1 = 0 ']'
++ year=2010
++ WRKDIR=/scratch/cnt0024/hmg2840/pverezem/TMP_MXL/2010
+++ SIC=siconc
+++ SST=votemper
+++ SSS=vosaline
+++ MXL10=somxl010
+++ lev1000=35
+++ depu=deptht
+++ depv=deptht
+++ sat=votemper
+++ sal=vosaline
+++ exsal='-s NNATLYS12-V1_ym_gridS.nc'
++ '[' 1 = 0 ']'
++ year=2007
++ WRKDIR=/scratch/cnt0024/hmg2840/pverezem/TMP_MXL/2007
++ mkdir -p /scratch/cnt0024/hmg2840/pverezem/TMP_MXL/2007
++ '[' 1 = 0 ']'
+++ depu=deptht
+++ depv=deptht
+++ sat=votemper
+++ sal=vosaline
++ year=2002
+++ exsal='-s NNATLYS12-V1_ym_gridS.nc'
++ year=2009
++ WRKDIR=/scratch/cnt0024/hmg2840/pverezem/TMP_MXL/2009
++ mkdir -p /scratch/cnt0024/hmg2840/pverezem/TMP_MXL/2009
+++ exsal='-s NNATLYS12-V1_ym_gridS.nc'
++ '[' 1 = 0 ']'
++ year=2003
++ WRKDIR=/scratch/cnt0024/hmg2840/pverezem/TMP_MXL/2003
++ mkdir -p /scratch/cnt0024/hmg2840/pverezem/TMP_MXL/2003
++ WRKDIR=/scratch/cnt0024/hmg2840/pverezem/TMP_MXL/2002
++ mkdir -p /scratch/cnt0024/hmg2840/pverezem/TMP_MXL/2002
++ mkdir -p /scratch/cnt0024/hmg2840/pverezem/TMP_MXL/2010
+++ GRID2=grid2D
+++ GRID1=gridT
+++ GRIDS=gridS
+++ GRIDU=gridU
+++ GRID3=grid2D
+++ GRIDV=gridV
+++ SSH=sossheig
+++ LHF=socelatf
+++ SHF=socesenf
+++ PRECIP=sowaprec
+++ RNF=sorunoff
+++ NET=sohefldo
+++ SIC=siconc
+++ SST=votemper
+++ SSS=vosaline
+++ MXL10=somxl010
+++ lev1000=35
+++ GRID2=grid2D
+++ GRID1=gridT
+++ GRIDS=gridS
+++ GRIDU=gridU
+++ GRID3=grid2D
+++ GRIDV=gridV
+++ SSH=sossheig
+++ LHF=socelatf
+++ SHF=socesenf
+++ PRECIP=sowaprec
+++ RNF=sorunoff
+++ NET=sohefldo
+++ SIC=siconc
+++ SST=votemper
+++ SSS=vosaline
+++ MXL10=somxl010
+++ lev1000=35
+++ depu=deptht
+++ depv=deptht
+++ sat=votemper
+++ sal=vosaline
+++ exsal='-s NNATLYS12-V1_ym_gridS.nc'
+++ GRID2=grid2D
+++ GRID1=gridT
+++ GRIDS=gridS
+++ GRIDU=gridU
++ '[' 1 = 0 ']'
++ year=2004
++ WRKDIR=/scratch/cnt0024/hmg2840/pverezem/TMP_MXL/2004
++ mkdir -p /scratch/cnt0024/hmg2840/pverezem/TMP_MXL/2004
+++ GRID3=grid2D
+++ GRIDV=gridV
+++ SSH=sossheig
+++ depu=deptht
+++ depv=deptht
+++ LHF=socelatf
+++ SHF=socesenf
+++ PRECIP=sowaprec
+++ RNF=sorunoff
+++ NET=sohefldo
+++ SIC=siconc
+++ SST=votemper
+++ SSS=vosaline
+++ MXL10=somxl010
+++ lev1000=35
+++ depu=deptht
+++ depv=deptht
+++ sat=votemper
+++ sal=vosaline
+++ exsal='-s NNATLYS12-V1_ym_gridS.nc'
++ '[' 1 = 0 ']'
++ year=2012
++ WRKDIR=/scratch/cnt0024/hmg2840/pverezem/TMP_MXL/2012
++ mkdir -p /scratch/cnt0024/hmg2840/pverezem/TMP_MXL/2012
+++ sat=votemper
+++ sal=vosaline
+++ exsal='-s NNATLYS12-V1_ym_gridS.nc'
++ '[' 1 = 0 ']'
++ '[' 1 = 0 ']'
++ year=2011
++ WRKDIR=/scratch/cnt0024/hmg2840/pverezem/TMP_MXL/2011
++ year=2014
++ WRKDIR=/scratch/cnt0024/hmg2840/pverezem/TMP_MXL/2014
++ mkdir -p /scratch/cnt0024/hmg2840/pverezem/TMP_MXL/2014
++ mkdir -p /scratch/cnt0024/hmg2840/pverezem/TMP_MXL/2011
+++ GRID2=grid2D
+++ GRID1=gridT
+++ GRIDS=gridS
+++ GRIDU=gridU
+++ GRID3=grid2D
+++ GRIDV=gridV
+++ SSH=sossheig
+++ LHF=socelatf
+++ SHF=socesenf
+++ PRECIP=sowaprec
+++ RNF=sorunoff
+++ NET=sohefldo
+++ SIC=siconc
+++ SST=votemper
+++ SSS=vosaline
+++ MXL10=somxl010
+++ lev1000=35
+++ depu=deptht
+++ depv=deptht
+++ sat=votemper
+++ sal=vosaline
+++ exsal='-s NNATLYS12-V1_ym_gridS.nc'
++ '[' 1 = 0 ']'
++ year=2015
++ WRKDIR=/scratch/cnt0024/hmg2840/pverezem/TMP_MXL/2015
++ mkdir -p /scratch/cnt0024/hmg2840/pverezem/TMP_MXL/2015
+++ GRID2=grid2D
+++ GRID1=gridT
+++ GRIDS=gridS
+++ GRIDU=gridU
+++ GRID3=grid2D
+++ GRIDV=gridV
+++ SSH=sossheig
+++ LHF=socelatf
+++ SHF=socesenf
+++ PRECIP=sowaprec
+++ RNF=sorunoff
+++ NET=sohefldo
+++ SIC=siconc
+++ SST=votemper
+++ SSS=vosaline
+++ MXL10=somxl010
+++ lev1000=35
+++ depu=deptht
+++ depv=deptht
+++ sat=votemper
+++ sal=vosaline
+++ exsal='-s NNATLYS12-V1_ym_gridS.nc'
++ '[' 1 = 0 ']'
++ year=2013
++ WRKDIR=/scratch/cnt0024/hmg2840/pverezem/TMP_MXL/2013
++ mkdir -p /scratch/cnt0024/hmg2840/pverezem/TMP_MXL/2013
++ cd /scratch/cnt0024/hmg2840/pverezem/TMP_MXL/2008
++ cd /scratch/cnt0024/hmg2840/pverezem/TMP_MXL/2010
++ cd /scratch/cnt0024/hmg2840/pverezem/TMP_MXL/2007
++ cd /scratch/cnt0024/hmg2840/pverezem/TMP_MXL/2002
++ cd /scratch/cnt0024/hmg2840/pverezem/TMP_MXL/2004
++ cd /scratch/cnt0024/hmg2840/pverezem/TMP_MXL/2011
++ cd /scratch/cnt0024/hmg2840/pverezem/TMP_MXL/2003
++ cd /scratch/cnt0024/hmg2840/pverezem/TMP_MXL/2012
++ cd /scratch/cnt0024/hmg2840/pverezem/TMP_MXL/2014
++ cd /scratch/cnt0024/hmg2840/pverezem/TMP_MXL/2009
++ cd /scratch/cnt0024/hmg2840/pverezem/TMP_MXL/2015
++ cd /scratch/cnt0024/hmg2840/pverezem/TMP_MXL/2013
++ ln -sf /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2006/NNATLYS12-V1_y2006m03d01.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2006/NNATLYS12-V1_y2006m03d02.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2006/NNATLYS12-V1_y2006m03d03.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2006/NNATLYS12-V1_y2006m03d04.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2006/NNATLYS12-V1_y2006m03d05.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2006/NNATLYS12-V1_y2006m03d06.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2006/NNATLYS12-V1_y2006m03d07.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2006/NNATLYS12-V1_y2006m03d08.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2006/NNATLYS12-V1_y2006m03d09.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2006/NNATLYS12-V1_y2006m03d10.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2006/NNATLYS12-V1_y2006m03d11.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2006/NNATLYS12-V1_y2006m03d12.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2006/NNATLYS12-V1_y2006m03d13.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2006/NNATLYS12-V1_y2006m03d14.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2006/NNATLYS12-V1_y2006m03d15.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2006/NNATLYS12-V1_y2006m03d16.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2006/NNATLYS12-V1_y2006m03d17.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2006/NNATLYS12-V1_y2006m03d18.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2006/NNATLYS12-V1_y2006m03d19.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2006/NNATLYS12-V1_y2006m03d20.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2006/NNATLYS12-V1_y2006m03d21.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2006/NNATLYS12-V1_y2006m03d22.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2006/NNATLYS12-V1_y2006m03d23.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2006/NNATLYS12-V1_y2006m03d24.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2006/NNATLYS12-V1_y2006m03d25.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2006/NNATLYS12-V1_y2006m03d26.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2006/NNATLYS12-V1_y2006m03d27.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2006/NNATLYS12-V1_y2006m03d28.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2006/NNATLYS12-V1_y2006m03d29.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2006/NNATLYS12-V1_y2006m03d30.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2006/NNATLYS12-V1_y2006m03d31.1d_grid2D.nc ./
++ ln -sf /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2007/NNATLYS12-V1_y2007m03d01.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2007/NNATLYS12-V1_y2007m03d02.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2007/NNATLYS12-V1_y2007m03d03.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2007/NNATLYS12-V1_y2007m03d04.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2007/NNATLYS12-V1_y2007m03d05.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2007/NNATLYS12-V1_y2007m03d06.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2007/NNATLYS12-V1_y2007m03d07.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2007/NNATLYS12-V1_y2007m03d08.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2007/NNATLYS12-V1_y2007m03d09.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2007/NNATLYS12-V1_y2007m03d10.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2007/NNATLYS12-V1_y2007m03d11.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2007/NNATLYS12-V1_y2007m03d12.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2007/NNATLYS12-V1_y2007m03d13.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2007/NNATLYS12-V1_y2007m03d14.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2007/NNATLYS12-V1_y2007m03d15.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2007/NNATLYS12-V1_y2007m03d16.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2007/NNATLYS12-V1_y2007m03d17.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2007/NNATLYS12-V1_y2007m03d18.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2007/NNATLYS12-V1_y2007m03d19.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2007/NNATLYS12-V1_y2007m03d20.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2007/NNATLYS12-V1_y2007m03d21.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2007/NNATLYS12-V1_y2007m03d22.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2007/NNATLYS12-V1_y2007m03d23.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2007/NNATLYS12-V1_y2007m03d24.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2007/NNATLYS12-V1_y2007m03d25.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2007/NNATLYS12-V1_y2007m03d26.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2007/NNATLYS12-V1_y2007m03d27.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2007/NNATLYS12-V1_y2007m03d28.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2007/NNATLYS12-V1_y2007m03d29.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2007/NNATLYS12-V1_y2007m03d30.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2007/NNATLYS12-V1_y2007m03d31.1d_grid2D.nc ./
++ ln -sf /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2005/NNATLYS12-V1_y2005m03d01.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2005/NNATLYS12-V1_y2005m03d02.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2005/NNATLYS12-V1_y2005m03d03.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2005/NNATLYS12-V1_y2005m03d04.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2005/NNATLYS12-V1_y2005m03d05.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2005/NNATLYS12-V1_y2005m03d06.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2005/NNATLYS12-V1_y2005m03d07.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2005/NNATLYS12-V1_y2005m03d08.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2005/NNATLYS12-V1_y2005m03d09.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2005/NNATLYS12-V1_y2005m03d10.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2005/NNATLYS12-V1_y2005m03d11.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2005/NNATLYS12-V1_y2005m03d12.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2005/NNATLYS12-V1_y2005m03d13.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2005/NNATLYS12-V1_y2005m03d14.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2005/NNATLYS12-V1_y2005m03d15.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2005/NNATLYS12-V1_y2005m03d16.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2005/NNATLYS12-V1_y2005m03d17.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2005/NNATLYS12-V1_y2005m03d18.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2005/NNATLYS12-V1_y2005m03d19.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2005/NNATLYS12-V1_y2005m03d20.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2005/NNATLYS12-V1_y2005m03d21.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2005/NNATLYS12-V1_y2005m03d22.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2005/NNATLYS12-V1_y2005m03d23.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2005/NNATLYS12-V1_y2005m03d24.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2005/NNATLYS12-V1_y2005m03d25.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2005/NNATLYS12-V1_y2005m03d26.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2005/NNATLYS12-V1_y2005m03d27.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2005/NNATLYS12-V1_y2005m03d28.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2005/NNATLYS12-V1_y2005m03d29.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2005/NNATLYS12-V1_y2005m03d30.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2005/NNATLYS12-V1_y2005m03d31.1d_grid2D.nc ./
++ ln -sf /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2009/NNATLYS12-V1_y2009m03d01.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2009/NNATLYS12-V1_y2009m03d02.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2009/NNATLYS12-V1_y2009m03d03.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2009/NNATLYS12-V1_y2009m03d04.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2009/NNATLYS12-V1_y2009m03d05.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2009/NNATLYS12-V1_y2009m03d06.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2009/NNATLYS12-V1_y2009m03d07.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2009/NNATLYS12-V1_y2009m03d08.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2009/NNATLYS12-V1_y2009m03d09.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2009/NNATLYS12-V1_y2009m03d10.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2009/NNATLYS12-V1_y2009m03d11.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2009/NNATLYS12-V1_y2009m03d12.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2009/NNATLYS12-V1_y2009m03d13.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2009/NNATLYS12-V1_y2009m03d14.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2009/NNATLYS12-V1_y2009m03d15.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2009/NNATLYS12-V1_y2009m03d16.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2009/NNATLYS12-V1_y2009m03d17.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2009/NNATLYS12-V1_y2009m03d18.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2009/NNATLYS12-V1_y2009m03d19.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2009/NNATLYS12-V1_y2009m03d20.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2009/NNATLYS12-V1_y2009m03d21.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2009/NNATLYS12-V1_y2009m03d22.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2009/NNATLYS12-V1_y2009m03d23.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2009/NNATLYS12-V1_y2009m03d24.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2009/NNATLYS12-V1_y2009m03d25.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2009/NNATLYS12-V1_y2009m03d26.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2009/NNATLYS12-V1_y2009m03d27.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2009/NNATLYS12-V1_y2009m03d28.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2009/NNATLYS12-V1_y2009m03d29.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2009/NNATLYS12-V1_y2009m03d30.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2009/NNATLYS12-V1_y2009m03d31.1d_grid2D.nc ./
++ ln -sf /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2013/NNATLYS12-V1_y2013m03d01.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2013/NNATLYS12-V1_y2013m03d02.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2013/NNATLYS12-V1_y2013m03d03.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2013/NNATLYS12-V1_y2013m03d04.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2013/NNATLYS12-V1_y2013m03d05.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2013/NNATLYS12-V1_y2013m03d06.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2013/NNATLYS12-V1_y2013m03d07.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2013/NNATLYS12-V1_y2013m03d08.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2013/NNATLYS12-V1_y2013m03d09.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2013/NNATLYS12-V1_y2013m03d10.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2013/NNATLYS12-V1_y2013m03d11.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2013/NNATLYS12-V1_y2013m03d12.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2013/NNATLYS12-V1_y2013m03d13.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2013/NNATLYS12-V1_y2013m03d14.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2013/NNATLYS12-V1_y2013m03d15.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2013/NNATLYS12-V1_y2013m03d16.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2013/NNATLYS12-V1_y2013m03d17.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2013/NNATLYS12-V1_y2013m03d18.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2013/NNATLYS12-V1_y2013m03d19.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2013/NNATLYS12-V1_y2013m03d20.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2013/NNATLYS12-V1_y2013m03d21.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2013/NNATLYS12-V1_y2013m03d22.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2013/NNATLYS12-V1_y2013m03d23.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2013/NNATLYS12-V1_y2013m03d24.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2013/NNATLYS12-V1_y2013m03d25.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2013/NNATLYS12-V1_y2013m03d26.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2013/NNATLYS12-V1_y2013m03d27.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2013/NNATLYS12-V1_y2013m03d28.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2013/NNATLYS12-V1_y2013m03d29.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2013/NNATLYS12-V1_y2013m03d30.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2013/NNATLYS12-V1_y2013m03d31.1d_grid2D.nc ./
++ ln -sf /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2008/NNATLYS12-V1_y2008m03d01.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2008/NNATLYS12-V1_y2008m03d02.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2008/NNATLYS12-V1_y2008m03d03.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2008/NNATLYS12-V1_y2008m03d04.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2008/NNATLYS12-V1_y2008m03d05.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2008/NNATLYS12-V1_y2008m03d06.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2008/NNATLYS12-V1_y2008m03d07.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2008/NNATLYS12-V1_y2008m03d08.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2008/NNATLYS12-V1_y2008m03d09.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2008/NNATLYS12-V1_y2008m03d10.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2008/NNATLYS12-V1_y2008m03d11.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2008/NNATLYS12-V1_y2008m03d12.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2008/NNATLYS12-V1_y2008m03d13.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2008/NNATLYS12-V1_y2008m03d14.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2008/NNATLYS12-V1_y2008m03d15.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2008/NNATLYS12-V1_y2008m03d16.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2008/NNATLYS12-V1_y2008m03d17.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2008/NNATLYS12-V1_y2008m03d18.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2008/NNATLYS12-V1_y2008m03d19.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2008/NNATLYS12-V1_y2008m03d20.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2008/NNATLYS12-V1_y2008m03d21.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2008/NNATLYS12-V1_y2008m03d22.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2008/NNATLYS12-V1_y2008m03d23.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2008/NNATLYS12-V1_y2008m03d24.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2008/NNATLYS12-V1_y2008m03d25.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2008/NNATLYS12-V1_y2008m03d26.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2008/NNATLYS12-V1_y2008m03d27.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2008/NNATLYS12-V1_y2008m03d28.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2008/NNATLYS12-V1_y2008m03d29.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2008/NNATLYS12-V1_y2008m03d30.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2008/NNATLYS12-V1_y2008m03d31.1d_grid2D.nc ./
++ ln -sf /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2014/NNATLYS12-V1_y2014m03d01.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2014/NNATLYS12-V1_y2014m03d02.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2014/NNATLYS12-V1_y2014m03d03.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2014/NNATLYS12-V1_y2014m03d04.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2014/NNATLYS12-V1_y2014m03d05.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2014/NNATLYS12-V1_y2014m03d06.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2014/NNATLYS12-V1_y2014m03d07.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2014/NNATLYS12-V1_y2014m03d08.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2014/NNATLYS12-V1_y2014m03d09.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2014/NNATLYS12-V1_y2014m03d10.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2014/NNATLYS12-V1_y2014m03d11.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2014/NNATLYS12-V1_y2014m03d12.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2014/NNATLYS12-V1_y2014m03d13.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2014/NNATLYS12-V1_y2014m03d14.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2014/NNATLYS12-V1_y2014m03d15.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2014/NNATLYS12-V1_y2014m03d16.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2014/NNATLYS12-V1_y2014m03d17.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2014/NNATLYS12-V1_y2014m03d18.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2014/NNATLYS12-V1_y2014m03d19.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2014/NNATLYS12-V1_y2014m03d20.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2014/NNATLYS12-V1_y2014m03d21.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2014/NNATLYS12-V1_y2014m03d22.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2014/NNATLYS12-V1_y2014m03d23.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2014/NNATLYS12-V1_y2014m03d24.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2014/NNATLYS12-V1_y2014m03d25.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2014/NNATLYS12-V1_y2014m03d26.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2014/NNATLYS12-V1_y2014m03d27.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2014/NNATLYS12-V1_y2014m03d28.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2014/NNATLYS12-V1_y2014m03d29.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2014/NNATLYS12-V1_y2014m03d30.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2014/NNATLYS12-V1_y2014m03d31.1d_grid2D.nc ./
++ cp /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/NNATLYS12_mesh_zgr.nc mesh_zgr.nc
++ cp /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/NNATLYS12_mesh_zgr.nc mesh_zgr.nc
++ cp /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/NNATLYS12_mesh_zgr.nc mesh_zgr.nc
++ ln -sf /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2015/NNATLYS12-V1_y2015m03d01.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2015/NNATLYS12-V1_y2015m03d02.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2015/NNATLYS12-V1_y2015m03d03.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2015/NNATLYS12-V1_y2015m03d04.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2015/NNATLYS12-V1_y2015m03d05.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2015/NNATLYS12-V1_y2015m03d06.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2015/NNATLYS12-V1_y2015m03d07.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2015/NNATLYS12-V1_y2015m03d08.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2015/NNATLYS12-V1_y2015m03d09.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2015/NNATLYS12-V1_y2015m03d10.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2015/NNATLYS12-V1_y2015m03d11.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2015/NNATLYS12-V1_y2015m03d12.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2015/NNATLYS12-V1_y2015m03d13.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2015/NNATLYS12-V1_y2015m03d14.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2015/NNATLYS12-V1_y2015m03d15.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2015/NNATLYS12-V1_y2015m03d16.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2015/NNATLYS12-V1_y2015m03d17.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2015/NNATLYS12-V1_y2015m03d18.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2015/NNATLYS12-V1_y2015m03d19.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2015/NNATLYS12-V1_y2015m03d20.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2015/NNATLYS12-V1_y2015m03d21.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2015/NNATLYS12-V1_y2015m03d22.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2015/NNATLYS12-V1_y2015m03d23.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2015/NNATLYS12-V1_y2015m03d24.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2015/NNATLYS12-V1_y2015m03d25.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2015/NNATLYS12-V1_y2015m03d26.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2015/NNATLYS12-V1_y2015m03d27.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2015/NNATLYS12-V1_y2015m03d28.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2015/NNATLYS12-V1_y2015m03d29.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2015/NNATLYS12-V1_y2015m03d30.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2015/NNATLYS12-V1_y2015m03d31.1d_grid2D.nc ./
++ cp /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/NNATLYS12_mesh_zgr.nc mesh_zgr.nc
++ ln -sf /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2003/NNATLYS12-V1_y2003m03d01.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2003/NNATLYS12-V1_y2003m03d02.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2003/NNATLYS12-V1_y2003m03d03.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2003/NNATLYS12-V1_y2003m03d04.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2003/NNATLYS12-V1_y2003m03d05.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2003/NNATLYS12-V1_y2003m03d06.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2003/NNATLYS12-V1_y2003m03d07.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2003/NNATLYS12-V1_y2003m03d08.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2003/NNATLYS12-V1_y2003m03d09.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2003/NNATLYS12-V1_y2003m03d10.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2003/NNATLYS12-V1_y2003m03d11.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2003/NNATLYS12-V1_y2003m03d12.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2003/NNATLYS12-V1_y2003m03d13.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2003/NNATLYS12-V1_y2003m03d14.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2003/NNATLYS12-V1_y2003m03d15.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2003/NNATLYS12-V1_y2003m03d16.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2003/NNATLYS12-V1_y2003m03d17.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2003/NNATLYS12-V1_y2003m03d18.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2003/NNATLYS12-V1_y2003m03d19.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2003/NNATLYS12-V1_y2003m03d20.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2003/NNATLYS12-V1_y2003m03d21.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2003/NNATLYS12-V1_y2003m03d22.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2003/NNATLYS12-V1_y2003m03d23.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2003/NNATLYS12-V1_y2003m03d24.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2003/NNATLYS12-V1_y2003m03d25.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2003/NNATLYS12-V1_y2003m03d26.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2003/NNATLYS12-V1_y2003m03d27.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2003/NNATLYS12-V1_y2003m03d28.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2003/NNATLYS12-V1_y2003m03d29.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2003/NNATLYS12-V1_y2003m03d30.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2003/NNATLYS12-V1_y2003m03d31.1d_grid2D.nc ./
++ ln -sf /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2012/NNATLYS12-V1_y2012m03d01.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2012/NNATLYS12-V1_y2012m03d02.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2012/NNATLYS12-V1_y2012m03d03.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2012/NNATLYS12-V1_y2012m03d04.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2012/NNATLYS12-V1_y2012m03d05.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2012/NNATLYS12-V1_y2012m03d06.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2012/NNATLYS12-V1_y2012m03d07.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2012/NNATLYS12-V1_y2012m03d08.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2012/NNATLYS12-V1_y2012m03d09.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2012/NNATLYS12-V1_y2012m03d10.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2012/NNATLYS12-V1_y2012m03d11.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2012/NNATLYS12-V1_y2012m03d12.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2012/NNATLYS12-V1_y2012m03d13.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2012/NNATLYS12-V1_y2012m03d14.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2012/NNATLYS12-V1_y2012m03d15.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2012/NNATLYS12-V1_y2012m03d16.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2012/NNATLYS12-V1_y2012m03d17.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2012/NNATLYS12-V1_y2012m03d18.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2012/NNATLYS12-V1_y2012m03d19.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2012/NNATLYS12-V1_y2012m03d20.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2012/NNATLYS12-V1_y2012m03d21.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2012/NNATLYS12-V1_y2012m03d22.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2012/NNATLYS12-V1_y2012m03d23.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2012/NNATLYS12-V1_y2012m03d24.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2012/NNATLYS12-V1_y2012m03d25.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2012/NNATLYS12-V1_y2012m03d26.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2012/NNATLYS12-V1_y2012m03d27.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2012/NNATLYS12-V1_y2012m03d28.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2012/NNATLYS12-V1_y2012m03d29.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2012/NNATLYS12-V1_y2012m03d30.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2012/NNATLYS12-V1_y2012m03d31.1d_grid2D.nc ./
++ cp /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/NNATLYS12_mesh_zgr.nc mesh_zgr.nc
++ cp /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/NNATLYS12_mesh_zgr.nc mesh_zgr.nc
++ cp /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/NNATLYS12_mesh_zgr.nc mesh_zgr.nc
++ ln -sf /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2010/NNATLYS12-V1_y2010m03d01.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2010/NNATLYS12-V1_y2010m03d02.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2010/NNATLYS12-V1_y2010m03d03.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2010/NNATLYS12-V1_y2010m03d04.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2010/NNATLYS12-V1_y2010m03d05.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2010/NNATLYS12-V1_y2010m03d06.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2010/NNATLYS12-V1_y2010m03d07.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2010/NNATLYS12-V1_y2010m03d08.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2010/NNATLYS12-V1_y2010m03d09.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2010/NNATLYS12-V1_y2010m03d10.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2010/NNATLYS12-V1_y2010m03d11.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2010/NNATLYS12-V1_y2010m03d12.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2010/NNATLYS12-V1_y2010m03d13.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2010/NNATLYS12-V1_y2010m03d14.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2010/NNATLYS12-V1_y2010m03d15.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2010/NNATLYS12-V1_y2010m03d16.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2010/NNATLYS12-V1_y2010m03d17.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2010/NNATLYS12-V1_y2010m03d18.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2010/NNATLYS12-V1_y2010m03d19.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2010/NNATLYS12-V1_y2010m03d20.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2010/NNATLYS12-V1_y2010m03d21.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2010/NNATLYS12-V1_y2010m03d22.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2010/NNATLYS12-V1_y2010m03d23.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2010/NNATLYS12-V1_y2010m03d24.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2010/NNATLYS12-V1_y2010m03d25.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2010/NNATLYS12-V1_y2010m03d26.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2010/NNATLYS12-V1_y2010m03d27.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2010/NNATLYS12-V1_y2010m03d28.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2010/NNATLYS12-V1_y2010m03d29.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2010/NNATLYS12-V1_y2010m03d30.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2010/NNATLYS12-V1_y2010m03d31.1d_grid2D.nc ./
++ ln -sf /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2004/NNATLYS12-V1_y2004m03d01.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2004/NNATLYS12-V1_y2004m03d02.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2004/NNATLYS12-V1_y2004m03d03.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2004/NNATLYS12-V1_y2004m03d04.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2004/NNATLYS12-V1_y2004m03d05.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2004/NNATLYS12-V1_y2004m03d06.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2004/NNATLYS12-V1_y2004m03d07.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2004/NNATLYS12-V1_y2004m03d08.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2004/NNATLYS12-V1_y2004m03d09.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2004/NNATLYS12-V1_y2004m03d10.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2004/NNATLYS12-V1_y2004m03d11.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2004/NNATLYS12-V1_y2004m03d12.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2004/NNATLYS12-V1_y2004m03d13.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2004/NNATLYS12-V1_y2004m03d14.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2004/NNATLYS12-V1_y2004m03d15.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2004/NNATLYS12-V1_y2004m03d16.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2004/NNATLYS12-V1_y2004m03d17.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2004/NNATLYS12-V1_y2004m03d18.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2004/NNATLYS12-V1_y2004m03d19.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2004/NNATLYS12-V1_y2004m03d20.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2004/NNATLYS12-V1_y2004m03d21.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2004/NNATLYS12-V1_y2004m03d22.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2004/NNATLYS12-V1_y2004m03d23.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2004/NNATLYS12-V1_y2004m03d24.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2004/NNATLYS12-V1_y2004m03d25.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2004/NNATLYS12-V1_y2004m03d26.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2004/NNATLYS12-V1_y2004m03d27.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2004/NNATLYS12-V1_y2004m03d28.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2004/NNATLYS12-V1_y2004m03d29.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2004/NNATLYS12-V1_y2004m03d30.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2004/NNATLYS12-V1_y2004m03d31.1d_grid2D.nc ./
++ cp /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/NNATLYS12_mesh_zgr.nc mesh_zgr.nc
++ cp /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/NNATLYS12_mesh_zgr.nc mesh_zgr.nc
++ ln -sf /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2011/NNATLYS12-V1_y2011m03d01.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2011/NNATLYS12-V1_y2011m03d02.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2011/NNATLYS12-V1_y2011m03d03.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2011/NNATLYS12-V1_y2011m03d04.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2011/NNATLYS12-V1_y2011m03d05.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2011/NNATLYS12-V1_y2011m03d06.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2011/NNATLYS12-V1_y2011m03d07.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2011/NNATLYS12-V1_y2011m03d08.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2011/NNATLYS12-V1_y2011m03d09.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2011/NNATLYS12-V1_y2011m03d10.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2011/NNATLYS12-V1_y2011m03d11.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2011/NNATLYS12-V1_y2011m03d12.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2011/NNATLYS12-V1_y2011m03d13.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2011/NNATLYS12-V1_y2011m03d14.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2011/NNATLYS12-V1_y2011m03d15.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2011/NNATLYS12-V1_y2011m03d16.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2011/NNATLYS12-V1_y2011m03d17.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2011/NNATLYS12-V1_y2011m03d18.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2011/NNATLYS12-V1_y2011m03d19.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2011/NNATLYS12-V1_y2011m03d20.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2011/NNATLYS12-V1_y2011m03d21.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2011/NNATLYS12-V1_y2011m03d22.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2011/NNATLYS12-V1_y2011m03d23.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2011/NNATLYS12-V1_y2011m03d24.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2011/NNATLYS12-V1_y2011m03d25.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2011/NNATLYS12-V1_y2011m03d26.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2011/NNATLYS12-V1_y2011m03d27.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2011/NNATLYS12-V1_y2011m03d28.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2011/NNATLYS12-V1_y2011m03d29.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2011/NNATLYS12-V1_y2011m03d30.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2011/NNATLYS12-V1_y2011m03d31.1d_grid2D.nc ./
++ cp /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/NNATLYS12_mesh_zgr.nc mesh_zgr.nc
++ cp /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/NNATLYS12_mesh_zgr.nc mesh_zgr.nc
++ cp /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/NNATLYS12_mesh_zgr.nc mesh_zgr.nc
++ ln -sf /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2002/NNATLYS12-V1_y2002m03d01.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2002/NNATLYS12-V1_y2002m03d02.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2002/NNATLYS12-V1_y2002m03d03.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2002/NNATLYS12-V1_y2002m03d04.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2002/NNATLYS12-V1_y2002m03d05.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2002/NNATLYS12-V1_y2002m03d06.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2002/NNATLYS12-V1_y2002m03d07.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2002/NNATLYS12-V1_y2002m03d08.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2002/NNATLYS12-V1_y2002m03d09.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2002/NNATLYS12-V1_y2002m03d10.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2002/NNATLYS12-V1_y2002m03d11.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2002/NNATLYS12-V1_y2002m03d12.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2002/NNATLYS12-V1_y2002m03d13.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2002/NNATLYS12-V1_y2002m03d14.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2002/NNATLYS12-V1_y2002m03d15.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2002/NNATLYS12-V1_y2002m03d16.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2002/NNATLYS12-V1_y2002m03d17.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2002/NNATLYS12-V1_y2002m03d18.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2002/NNATLYS12-V1_y2002m03d19.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2002/NNATLYS12-V1_y2002m03d20.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2002/NNATLYS12-V1_y2002m03d21.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2002/NNATLYS12-V1_y2002m03d22.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2002/NNATLYS12-V1_y2002m03d23.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2002/NNATLYS12-V1_y2002m03d24.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2002/NNATLYS12-V1_y2002m03d25.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2002/NNATLYS12-V1_y2002m03d26.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2002/NNATLYS12-V1_y2002m03d27.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2002/NNATLYS12-V1_y2002m03d28.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2002/NNATLYS12-V1_y2002m03d29.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2002/NNATLYS12-V1_y2002m03d30.1d_grid2D.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/2002/NNATLYS12-V1_y2002m03d31.1d_grid2D.nc ./
++ cp /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/NNATLYS12_mesh_zgr.nc mesh_zgr.nc
++ cp /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/NNATLYS12_mesh_zgr.nc mesh_zgr.nc
++ cp /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/NNATLYS12_mesh_hgr.nc mesh_hgr.nc
++ cp /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/NNATLYS12_mesh_hgr.nc mesh_hgr.nc
++ cp /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/NNATLYS12_mesh_hgr.nc mesh_hgr.nc
++ cp /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/NNATLYS12_mesh_hgr.nc mesh_hgr.nc
++ cp /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/NNATLYS12_mesh_hgr.nc mesh_hgr.nc
++ cp /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/NNATLYS12_mesh_hgr.nc mesh_hgr.nc
++ cp /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/NNATLYS12_mesh_hgr.nc mesh_hgr.nc
++ cp /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/NNATLYS12_mesh_hgr.nc mesh_hgr.nc
++ cp /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/NNATLYS12_mesh_hgr.nc mesh_hgr.nc
++ cp /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/NNATLYS12_mesh_hgr.nc mesh_hgr.nc
++ cp /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/NNATLYS12_mesh_hgr.nc mesh_hgr.nc
++ cp /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/NNATLYS12_mesh_hgr.nc mesh_hgr.nc
++ cp /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/NNATLYS12_mesh_hgr.nc mesh_hgr.nc
++ cp /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/NNATLYS12_mesh_hgr.nc mesh_hgr.nc
++ cp /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/NNATLYS12_byte_mask.nc mask.nc
++ cp /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/NNATLYS12_byte_mask.nc mask.nc
++ cp /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/NNATLYS12_byte_mask.nc mask.nc
++ cp /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/NNATLYS12_byte_mask.nc mask.nc
++ cp /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/NNATLYS12_byte_mask.nc mask.nc
++ cp /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/NNATLYS12_byte_mask.nc mask.nc
++ cp /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/NNATLYS12_byte_mask.nc mask.nc
++ cp /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/NNATLYS12_byte_mask.nc mask.nc
++ cp /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/NNATLYS12_byte_mask.nc mask.nc
++ cp /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/NNATLYS12_byte_mask.nc mask.nc
++ cp /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/NNATLYS12_byte_mask.nc mask.nc
++ cp /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/NNATLYS12_byte_mask.nc mask.nc
++ cp /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/NNATLYS12_byte_mask.nc mask.nc
++ cp /scratch/cnt0024/hmg2840/pverezem/NNATLYS12-V1/NNATLYS12_byte_mask.nc mask.nc
++ cdfmoy -l NNATLYS12-V1_y2015m03d01.1d_grid2D.nc NNATLYS12-V1_y2015m03d02.1d_grid2D.nc NNATLYS12-V1_y2015m03d03.1d_grid2D.nc NNATLYS12-V1_y2015m03d04.1d_grid2D.nc NNATLYS12-V1_y2015m03d05.1d_grid2D.nc NNATLYS12-V1_y2015m03d06.1d_grid2D.nc NNATLYS12-V1_y2015m03d07.1d_grid2D.nc NNATLYS12-V1_y2015m03d08.1d_grid2D.nc NNATLYS12-V1_y2015m03d09.1d_grid2D.nc NNATLYS12-V1_y2015m03d10.1d_grid2D.nc NNATLYS12-V1_y2015m03d11.1d_grid2D.nc NNATLYS12-V1_y2015m03d12.1d_grid2D.nc NNATLYS12-V1_y2015m03d13.1d_grid2D.nc NNATLYS12-V1_y2015m03d14.1d_grid2D.nc NNATLYS12-V1_y2015m03d15.1d_grid2D.nc NNATLYS12-V1_y2015m03d16.1d_grid2D.nc NNATLYS12-V1_y2015m03d17.1d_grid2D.nc NNATLYS12-V1_y2015m03d18.1d_grid2D.nc NNATLYS12-V1_y2015m03d19.1d_grid2D.nc NNATLYS12-V1_y2015m03d20.1d_grid2D.nc NNATLYS12-V1_y2015m03d21.1d_grid2D.nc NNATLYS12-V1_y2015m03d22.1d_grid2D.nc NNATLYS12-V1_y2015m03d23.1d_grid2D.nc NNATLYS12-V1_y2015m03d24.1d_grid2D.nc NNATLYS12-V1_y2015m03d25.1d_grid2D.nc NNATLYS12-V1_y2015m03d26.1d_grid2D.nc NNATLYS12-V1_y2015m03d27.1d_grid2D.nc NNATLYS12-V1_y2015m03d28.1d_grid2D.nc NNATLYS12-V1_y2015m03d29.1d_grid2D.nc NNATLYS12-V1_y2015m03d30.1d_grid2D.nc NNATLYS12-V1_y2015m03d31.1d_grid2D.nc -max -o NNATLYS12-V1_y2015_mflxT
++ cdfmoy -l NNATLYS12-V1_y2014m03d01.1d_grid2D.nc NNATLYS12-V1_y2014m03d02.1d_grid2D.nc NNATLYS12-V1_y2014m03d03.1d_grid2D.nc NNATLYS12-V1_y2014m03d04.1d_grid2D.nc NNATLYS12-V1_y2014m03d05.1d_grid2D.nc NNATLYS12-V1_y2014m03d06.1d_grid2D.nc NNATLYS12-V1_y2014m03d07.1d_grid2D.nc NNATLYS12-V1_y2014m03d08.1d_grid2D.nc NNATLYS12-V1_y2014m03d09.1d_grid2D.nc NNATLYS12-V1_y2014m03d10.1d_grid2D.nc NNATLYS12-V1_y2014m03d11.1d_grid2D.nc NNATLYS12-V1_y2014m03d12.1d_grid2D.nc NNATLYS12-V1_y2014m03d13.1d_grid2D.nc NNATLYS12-V1_y2014m03d14.1d_grid2D.nc NNATLYS12-V1_y2014m03d15.1d_grid2D.nc NNATLYS12-V1_y2014m03d16.1d_grid2D.nc NNATLYS12-V1_y2014m03d17.1d_grid2D.nc NNATLYS12-V1_y2014m03d18.1d_grid2D.nc NNATLYS12-V1_y2014m03d19.1d_grid2D.nc NNATLYS12-V1_y2014m03d20.1d_grid2D.nc NNATLYS12-V1_y2014m03d21.1d_grid2D.nc NNATLYS12-V1_y2014m03d22.1d_grid2D.nc NNATLYS12-V1_y2014m03d23.1d_grid2D.nc NNATLYS12-V1_y2014m03d24.1d_grid2D.nc NNATLYS12-V1_y2014m03d25.1d_grid2D.nc NNATLYS12-V1_y2014m03d26.1d_grid2D.nc NNATLYS12-V1_y2014m03d27.1d_grid2D.nc NNATLYS12-V1_y2014m03d28.1d_grid2D.nc NNATLYS12-V1_y2014m03d29.1d_grid2D.nc NNATLYS12-V1_y2014m03d30.1d_grid2D.nc NNATLYS12-V1_y2014m03d31.1d_grid2D.nc -max -o NNATLYS12-V1_y2014_mflxT
++ cdfmoy -l NNATLYS12-V1_y2006m03d01.1d_grid2D.nc NNATLYS12-V1_y2006m03d02.1d_grid2D.nc NNATLYS12-V1_y2006m03d03.1d_grid2D.nc NNATLYS12-V1_y2006m03d04.1d_grid2D.nc NNATLYS12-V1_y2006m03d05.1d_grid2D.nc NNATLYS12-V1_y2006m03d06.1d_grid2D.nc NNATLYS12-V1_y2006m03d07.1d_grid2D.nc NNATLYS12-V1_y2006m03d08.1d_grid2D.nc NNATLYS12-V1_y2006m03d09.1d_grid2D.nc NNATLYS12-V1_y2006m03d10.1d_grid2D.nc NNATLYS12-V1_y2006m03d11.1d_grid2D.nc NNATLYS12-V1_y2006m03d12.1d_grid2D.nc NNATLYS12-V1_y2006m03d13.1d_grid2D.nc NNATLYS12-V1_y2006m03d14.1d_grid2D.nc NNATLYS12-V1_y2006m03d15.1d_grid2D.nc NNATLYS12-V1_y2006m03d16.1d_grid2D.nc NNATLYS12-V1_y2006m03d17.1d_grid2D.nc NNATLYS12-V1_y2006m03d18.1d_grid2D.nc NNATLYS12-V1_y2006m03d19.1d_grid2D.nc NNATLYS12-V1_y2006m03d20.1d_grid2D.nc NNATLYS12-V1_y2006m03d21.1d_grid2D.nc NNATLYS12-V1_y2006m03d22.1d_grid2D.nc NNATLYS12-V1_y2006m03d23.1d_grid2D.nc NNATLYS12-V1_y2006m03d24.1d_grid2D.nc NNATLYS12-V1_y2006m03d25.1d_grid2D.nc NNATLYS12-V1_y2006m03d26.1d_grid2D.nc NNATLYS12-V1_y2006m03d27.1d_grid2D.nc NNATLYS12-V1_y2006m03d28.1d_grid2D.nc NNATLYS12-V1_y2006m03d29.1d_grid2D.nc NNATLYS12-V1_y2006m03d30.1d_grid2D.nc NNATLYS12-V1_y2006m03d31.1d_grid2D.nc -max -o NNATLYS12-V1_y2006_mflxT
++ cdfmoy -l NNATLYS12-V1_y2009m03d01.1d_grid2D.nc NNATLYS12-V1_y2009m03d02.1d_grid2D.nc NNATLYS12-V1_y2009m03d03.1d_grid2D.nc NNATLYS12-V1_y2009m03d04.1d_grid2D.nc NNATLYS12-V1_y2009m03d05.1d_grid2D.nc NNATLYS12-V1_y2009m03d06.1d_grid2D.nc NNATLYS12-V1_y2009m03d07.1d_grid2D.nc NNATLYS12-V1_y2009m03d08.1d_grid2D.nc NNATLYS12-V1_y2009m03d09.1d_grid2D.nc NNATLYS12-V1_y2009m03d10.1d_grid2D.nc NNATLYS12-V1_y2009m03d11.1d_grid2D.nc NNATLYS12-V1_y2009m03d12.1d_grid2D.nc NNATLYS12-V1_y2009m03d13.1d_grid2D.nc NNATLYS12-V1_y2009m03d14.1d_grid2D.nc NNATLYS12-V1_y2009m03d15.1d_grid2D.nc NNATLYS12-V1_y2009m03d16.1d_grid2D.nc NNATLYS12-V1_y2009m03d17.1d_grid2D.nc NNATLYS12-V1_y2009m03d18.1d_grid2D.nc NNATLYS12-V1_y2009m03d19.1d_grid2D.nc NNATLYS12-V1_y2009m03d20.1d_grid2D.nc NNATLYS12-V1_y2009m03d21.1d_grid2D.nc NNATLYS12-V1_y2009m03d22.1d_grid2D.nc NNATLYS12-V1_y2009m03d23.1d_grid2D.nc NNATLYS12-V1_y2009m03d24.1d_grid2D.nc NNATLYS12-V1_y2009m03d25.1d_grid2D.nc NNATLYS12-V1_y2009m03d26.1d_grid2D.nc NNATLYS12-V1_y2009m03d27.1d_grid2D.nc NNATLYS12-V1_y2009m03d28.1d_grid2D.nc NNATLYS12-V1_y2009m03d29.1d_grid2D.nc NNATLYS12-V1_y2009m03d30.1d_grid2D.nc NNATLYS12-V1_y2009m03d31.1d_grid2D.nc -max -o NNATLYS12-V1_y2009_mflxT
++ cdfmoy -l NNATLYS12-V1_y2003m03d01.1d_grid2D.nc NNATLYS12-V1_y2003m03d02.1d_grid2D.nc NNATLYS12-V1_y2003m03d03.1d_grid2D.nc NNATLYS12-V1_y2003m03d04.1d_grid2D.nc NNATLYS12-V1_y2003m03d05.1d_grid2D.nc NNATLYS12-V1_y2003m03d06.1d_grid2D.nc NNATLYS12-V1_y2003m03d07.1d_grid2D.nc NNATLYS12-V1_y2003m03d08.1d_grid2D.nc NNATLYS12-V1_y2003m03d09.1d_grid2D.nc NNATLYS12-V1_y2003m03d10.1d_grid2D.nc NNATLYS12-V1_y2003m03d11.1d_grid2D.nc NNATLYS12-V1_y2003m03d12.1d_grid2D.nc NNATLYS12-V1_y2003m03d13.1d_grid2D.nc NNATLYS12-V1_y2003m03d14.1d_grid2D.nc NNATLYS12-V1_y2003m03d15.1d_grid2D.nc NNATLYS12-V1_y2003m03d16.1d_grid2D.nc NNATLYS12-V1_y2003m03d17.1d_grid2D.nc NNATLYS12-V1_y2003m03d18.1d_grid2D.nc NNATLYS12-V1_y2003m03d19.1d_grid2D.nc NNATLYS12-V1_y2003m03d20.1d_grid2D.nc NNATLYS12-V1_y2003m03d21.1d_grid2D.nc NNATLYS12-V1_y2003m03d22.1d_grid2D.nc NNATLYS12-V1_y2003m03d23.1d_grid2D.nc NNATLYS12-V1_y2003m03d24.1d_grid2D.nc NNATLYS12-V1_y2003m03d25.1d_grid2D.nc NNATLYS12-V1_y2003m03d26.1d_grid2D.nc NNATLYS12-V1_y2003m03d27.1d_grid2D.nc NNATLYS12-V1_y2003m03d28.1d_grid2D.nc NNATLYS12-V1_y2003m03d29.1d_grid2D.nc NNATLYS12-V1_y2003m03d30.1d_grid2D.nc NNATLYS12-V1_y2003m03d31.1d_grid2D.nc -max -o NNATLYS12-V1_y2003_mflxT
++ cdfmoy -l NNATLYS12-V1_y2005m03d01.1d_grid2D.nc NNATLYS12-V1_y2005m03d02.1d_grid2D.nc NNATLYS12-V1_y2005m03d03.1d_grid2D.nc NNATLYS12-V1_y2005m03d04.1d_grid2D.nc NNATLYS12-V1_y2005m03d05.1d_grid2D.nc NNATLYS12-V1_y2005m03d06.1d_grid2D.nc NNATLYS12-V1_y2005m03d07.1d_grid2D.nc NNATLYS12-V1_y2005m03d08.1d_grid2D.nc NNATLYS12-V1_y2005m03d09.1d_grid2D.nc NNATLYS12-V1_y2005m03d10.1d_grid2D.nc NNATLYS12-V1_y2005m03d11.1d_grid2D.nc NNATLYS12-V1_y2005m03d12.1d_grid2D.nc NNATLYS12-V1_y2005m03d13.1d_grid2D.nc NNATLYS12-V1_y2005m03d14.1d_grid2D.nc NNATLYS12-V1_y2005m03d15.1d_grid2D.nc NNATLYS12-V1_y2005m03d16.1d_grid2D.nc NNATLYS12-V1_y2005m03d17.1d_grid2D.nc NNATLYS12-V1_y2005m03d18.1d_grid2D.nc NNATLYS12-V1_y2005m03d19.1d_grid2D.nc NNATLYS12-V1_y2005m03d20.1d_grid2D.nc NNATLYS12-V1_y2005m03d21.1d_grid2D.nc NNATLYS12-V1_y2005m03d22.1d_grid2D.nc NNATLYS12-V1_y2005m03d23.1d_grid2D.nc NNATLYS12-V1_y2005m03d24.1d_grid2D.nc NNATLYS12-V1_y2005m03d25.1d_grid2D.nc NNATLYS12-V1_y2005m03d26.1d_grid2D.nc NNATLYS12-V1_y2005m03d27.1d_grid2D.nc NNATLYS12-V1_y2005m03d28.1d_grid2D.nc NNATLYS12-V1_y2005m03d29.1d_grid2D.nc NNATLYS12-V1_y2005m03d30.1d_grid2D.nc NNATLYS12-V1_y2005m03d31.1d_grid2D.nc -max -o NNATLYS12-V1_y2005_mflxT
++ cdfmoy -l NNATLYS12-V1_y2011m03d01.1d_grid2D.nc NNATLYS12-V1_y2011m03d02.1d_grid2D.nc NNATLYS12-V1_y2011m03d03.1d_grid2D.nc NNATLYS12-V1_y2011m03d04.1d_grid2D.nc NNATLYS12-V1_y2011m03d05.1d_grid2D.nc NNATLYS12-V1_y2011m03d06.1d_grid2D.nc NNATLYS12-V1_y2011m03d07.1d_grid2D.nc NNATLYS12-V1_y2011m03d08.1d_grid2D.nc NNATLYS12-V1_y2011m03d09.1d_grid2D.nc NNATLYS12-V1_y2011m03d10.1d_grid2D.nc NNATLYS12-V1_y2011m03d11.1d_grid2D.nc NNATLYS12-V1_y2011m03d12.1d_grid2D.nc NNATLYS12-V1_y2011m03d13.1d_grid2D.nc NNATLYS12-V1_y2011m03d14.1d_grid2D.nc NNATLYS12-V1_y2011m03d15.1d_grid2D.nc NNATLYS12-V1_y2011m03d16.1d_grid2D.nc NNATLYS12-V1_y2011m03d17.1d_grid2D.nc NNATLYS12-V1_y2011m03d18.1d_grid2D.nc NNATLYS12-V1_y2011m03d19.1d_grid2D.nc NNATLYS12-V1_y2011m03d20.1d_grid2D.nc NNATLYS12-V1_y2011m03d21.1d_grid2D.nc NNATLYS12-V1_y2011m03d22.1d_grid2D.nc NNATLYS12-V1_y2011m03d23.1d_grid2D.nc NNATLYS12-V1_y2011m03d24.1d_grid2D.nc NNATLYS12-V1_y2011m03d25.1d_grid2D.nc NNATLYS12-V1_y2011m03d26.1d_grid2D.nc NNATLYS12-V1_y2011m03d27.1d_grid2D.nc NNATLYS12-V1_y2011m03d28.1d_grid2D.nc NNATLYS12-V1_y2011m03d29.1d_grid2D.nc NNATLYS12-V1_y2011m03d30.1d_grid2D.nc NNATLYS12-V1_y2011m03d31.1d_grid2D.nc -max -o NNATLYS12-V1_y2011_mflxT
++ cdfmoy -l NNATLYS12-V1_y2010m03d01.1d_grid2D.nc NNATLYS12-V1_y2010m03d02.1d_grid2D.nc NNATLYS12-V1_y2010m03d03.1d_grid2D.nc NNATLYS12-V1_y2010m03d04.1d_grid2D.nc NNATLYS12-V1_y2010m03d05.1d_grid2D.nc NNATLYS12-V1_y2010m03d06.1d_grid2D.nc NNATLYS12-V1_y2010m03d07.1d_grid2D.nc NNATLYS12-V1_y2010m03d08.1d_grid2D.nc NNATLYS12-V1_y2010m03d09.1d_grid2D.nc NNATLYS12-V1_y2010m03d10.1d_grid2D.nc NNATLYS12-V1_y2010m03d11.1d_grid2D.nc NNATLYS12-V1_y2010m03d12.1d_grid2D.nc NNATLYS12-V1_y2010m03d13.1d_grid2D.nc NNATLYS12-V1_y2010m03d14.1d_grid2D.nc NNATLYS12-V1_y2010m03d15.1d_grid2D.nc NNATLYS12-V1_y2010m03d16.1d_grid2D.nc NNATLYS12-V1_y2010m03d17.1d_grid2D.nc NNATLYS12-V1_y2010m03d18.1d_grid2D.nc NNATLYS12-V1_y2010m03d19.1d_grid2D.nc NNATLYS12-V1_y2010m03d20.1d_grid2D.nc NNATLYS12-V1_y2010m03d21.1d_grid2D.nc NNATLYS12-V1_y2010m03d22.1d_grid2D.nc NNATLYS12-V1_y2010m03d23.1d_grid2D.nc NNATLYS12-V1_y2010m03d24.1d_grid2D.nc NNATLYS12-V1_y2010m03d25.1d_grid2D.nc NNATLYS12-V1_y2010m03d26.1d_grid2D.nc NNATLYS12-V1_y2010m03d27.1d_grid2D.nc NNATLYS12-V1_y2010m03d28.1d_grid2D.nc NNATLYS12-V1_y2010m03d29.1d_grid2D.nc NNATLYS12-V1_y2010m03d30.1d_grid2D.nc NNATLYS12-V1_y2010m03d31.1d_grid2D.nc -max -o NNATLYS12-V1_y2010_mflxT
++ cdfmoy -l NNATLYS12-V1_y2013m03d01.1d_grid2D.nc NNATLYS12-V1_y2013m03d02.1d_grid2D.nc NNATLYS12-V1_y2013m03d03.1d_grid2D.nc NNATLYS12-V1_y2013m03d04.1d_grid2D.nc NNATLYS12-V1_y2013m03d05.1d_grid2D.nc NNATLYS12-V1_y2013m03d06.1d_grid2D.nc NNATLYS12-V1_y2013m03d07.1d_grid2D.nc NNATLYS12-V1_y2013m03d08.1d_grid2D.nc NNATLYS12-V1_y2013m03d09.1d_grid2D.nc NNATLYS12-V1_y2013m03d10.1d_grid2D.nc NNATLYS12-V1_y2013m03d11.1d_grid2D.nc NNATLYS12-V1_y2013m03d12.1d_grid2D.nc NNATLYS12-V1_y2013m03d13.1d_grid2D.nc NNATLYS12-V1_y2013m03d14.1d_grid2D.nc NNATLYS12-V1_y2013m03d15.1d_grid2D.nc NNATLYS12-V1_y2013m03d16.1d_grid2D.nc NNATLYS12-V1_y2013m03d17.1d_grid2D.nc NNATLYS12-V1_y2013m03d18.1d_grid2D.nc NNATLYS12-V1_y2013m03d19.1d_grid2D.nc NNATLYS12-V1_y2013m03d20.1d_grid2D.nc NNATLYS12-V1_y2013m03d21.1d_grid2D.nc NNATLYS12-V1_y2013m03d22.1d_grid2D.nc NNATLYS12-V1_y2013m03d23.1d_grid2D.nc NNATLYS12-V1_y2013m03d24.1d_grid2D.nc NNATLYS12-V1_y2013m03d25.1d_grid2D.nc NNATLYS12-V1_y2013m03d26.1d_grid2D.nc NNATLYS12-V1_y2013m03d27.1d_grid2D.nc NNATLYS12-V1_y2013m03d28.1d_grid2D.nc NNATLYS12-V1_y2013m03d29.1d_grid2D.nc NNATLYS12-V1_y2013m03d30.1d_grid2D.nc NNATLYS12-V1_y2013m03d31.1d_grid2D.nc -max -o NNATLYS12-V1_y2013_mflxT
++ cdfmoy -l NNATLYS12-V1_y2012m03d01.1d_grid2D.nc NNATLYS12-V1_y2012m03d02.1d_grid2D.nc NNATLYS12-V1_y2012m03d03.1d_grid2D.nc NNATLYS12-V1_y2012m03d04.1d_grid2D.nc NNATLYS12-V1_y2012m03d05.1d_grid2D.nc NNATLYS12-V1_y2012m03d06.1d_grid2D.nc NNATLYS12-V1_y2012m03d07.1d_grid2D.nc NNATLYS12-V1_y2012m03d08.1d_grid2D.nc NNATLYS12-V1_y2012m03d09.1d_grid2D.nc NNATLYS12-V1_y2012m03d10.1d_grid2D.nc NNATLYS12-V1_y2012m03d11.1d_grid2D.nc NNATLYS12-V1_y2012m03d12.1d_grid2D.nc NNATLYS12-V1_y2012m03d13.1d_grid2D.nc NNATLYS12-V1_y2012m03d14.1d_grid2D.nc NNATLYS12-V1_y2012m03d15.1d_grid2D.nc NNATLYS12-V1_y2012m03d16.1d_grid2D.nc NNATLYS12-V1_y2012m03d17.1d_grid2D.nc NNATLYS12-V1_y2012m03d18.1d_grid2D.nc NNATLYS12-V1_y2012m03d19.1d_grid2D.nc NNATLYS12-V1_y2012m03d20.1d_grid2D.nc NNATLYS12-V1_y2012m03d21.1d_grid2D.nc NNATLYS12-V1_y2012m03d22.1d_grid2D.nc NNATLYS12-V1_y2012m03d23.1d_grid2D.nc NNATLYS12-V1_y2012m03d24.1d_grid2D.nc NNATLYS12-V1_y2012m03d25.1d_grid2D.nc NNATLYS12-V1_y2012m03d26.1d_grid2D.nc NNATLYS12-V1_y2012m03d27.1d_grid2D.nc NNATLYS12-V1_y2012m03d28.1d_grid2D.nc NNATLYS12-V1_y2012m03d29.1d_grid2D.nc NNATLYS12-V1_y2012m03d30.1d_grid2D.nc NNATLYS12-V1_y2012m03d31.1d_grid2D.nc -max -o NNATLYS12-V1_y2012_mflxT
++ cdfmoy -l NNATLYS12-V1_y2007m03d01.1d_grid2D.nc NNATLYS12-V1_y2007m03d02.1d_grid2D.nc NNATLYS12-V1_y2007m03d03.1d_grid2D.nc NNATLYS12-V1_y2007m03d04.1d_grid2D.nc NNATLYS12-V1_y2007m03d05.1d_grid2D.nc NNATLYS12-V1_y2007m03d06.1d_grid2D.nc NNATLYS12-V1_y2007m03d07.1d_grid2D.nc NNATLYS12-V1_y2007m03d08.1d_grid2D.nc NNATLYS12-V1_y2007m03d09.1d_grid2D.nc NNATLYS12-V1_y2007m03d10.1d_grid2D.nc NNATLYS12-V1_y2007m03d11.1d_grid2D.nc NNATLYS12-V1_y2007m03d12.1d_grid2D.nc NNATLYS12-V1_y2007m03d13.1d_grid2D.nc NNATLYS12-V1_y2007m03d14.1d_grid2D.nc NNATLYS12-V1_y2007m03d15.1d_grid2D.nc NNATLYS12-V1_y2007m03d16.1d_grid2D.nc NNATLYS12-V1_y2007m03d17.1d_grid2D.nc NNATLYS12-V1_y2007m03d18.1d_grid2D.nc NNATLYS12-V1_y2007m03d19.1d_grid2D.nc NNATLYS12-V1_y2007m03d20.1d_grid2D.nc NNATLYS12-V1_y2007m03d21.1d_grid2D.nc NNATLYS12-V1_y2007m03d22.1d_grid2D.nc NNATLYS12-V1_y2007m03d23.1d_grid2D.nc NNATLYS12-V1_y2007m03d24.1d_grid2D.nc NNATLYS12-V1_y2007m03d25.1d_grid2D.nc NNATLYS12-V1_y2007m03d26.1d_grid2D.nc NNATLYS12-V1_y2007m03d27.1d_grid2D.nc NNATLYS12-V1_y2007m03d28.1d_grid2D.nc NNATLYS12-V1_y2007m03d29.1d_grid2D.nc NNATLYS12-V1_y2007m03d30.1d_grid2D.nc NNATLYS12-V1_y2007m03d31.1d_grid2D.nc -max -o NNATLYS12-V1_y2007_mflxT
++ cdfmoy -l NNATLYS12-V1_y2002m03d01.1d_grid2D.nc NNATLYS12-V1_y2002m03d02.1d_grid2D.nc NNATLYS12-V1_y2002m03d03.1d_grid2D.nc NNATLYS12-V1_y2002m03d04.1d_grid2D.nc NNATLYS12-V1_y2002m03d05.1d_grid2D.nc NNATLYS12-V1_y2002m03d06.1d_grid2D.nc NNATLYS12-V1_y2002m03d07.1d_grid2D.nc NNATLYS12-V1_y2002m03d08.1d_grid2D.nc NNATLYS12-V1_y2002m03d09.1d_grid2D.nc NNATLYS12-V1_y2002m03d10.1d_grid2D.nc NNATLYS12-V1_y2002m03d11.1d_grid2D.nc NNATLYS12-V1_y2002m03d12.1d_grid2D.nc NNATLYS12-V1_y2002m03d13.1d_grid2D.nc NNATLYS12-V1_y2002m03d14.1d_grid2D.nc NNATLYS12-V1_y2002m03d15.1d_grid2D.nc NNATLYS12-V1_y2002m03d16.1d_grid2D.nc NNATLYS12-V1_y2002m03d17.1d_grid2D.nc NNATLYS12-V1_y2002m03d18.1d_grid2D.nc NNATLYS12-V1_y2002m03d19.1d_grid2D.nc NNATLYS12-V1_y2002m03d20.1d_grid2D.nc NNATLYS12-V1_y2002m03d21.1d_grid2D.nc NNATLYS12-V1_y2002m03d22.1d_grid2D.nc NNATLYS12-V1_y2002m03d23.1d_grid2D.nc NNATLYS12-V1_y2002m03d24.1d_grid2D.nc NNATLYS12-V1_y2002m03d25.1d_grid2D.nc NNATLYS12-V1_y2002m03d26.1d_grid2D.nc NNATLYS12-V1_y2002m03d27.1d_grid2D.nc NNATLYS12-V1_y2002m03d28.1d_grid2D.nc NNATLYS12-V1_y2002m03d29.1d_grid2D.nc NNATLYS12-V1_y2002m03d30.1d_grid2D.nc NNATLYS12-V1_y2002m03d31.1d_grid2D.nc -max -o NNATLYS12-V1_y2002_mflxT
++ cdfmoy -l NNATLYS12-V1_y2008m03d01.1d_grid2D.nc NNATLYS12-V1_y2008m03d02.1d_grid2D.nc NNATLYS12-V1_y2008m03d03.1d_grid2D.nc NNATLYS12-V1_y2008m03d04.1d_grid2D.nc NNATLYS12-V1_y2008m03d05.1d_grid2D.nc NNATLYS12-V1_y2008m03d06.1d_grid2D.nc NNATLYS12-V1_y2008m03d07.1d_grid2D.nc NNATLYS12-V1_y2008m03d08.1d_grid2D.nc NNATLYS12-V1_y2008m03d09.1d_grid2D.nc NNATLYS12-V1_y2008m03d10.1d_grid2D.nc NNATLYS12-V1_y2008m03d11.1d_grid2D.nc NNATLYS12-V1_y2008m03d12.1d_grid2D.nc NNATLYS12-V1_y2008m03d13.1d_grid2D.nc NNATLYS12-V1_y2008m03d14.1d_grid2D.nc NNATLYS12-V1_y2008m03d15.1d_grid2D.nc NNATLYS12-V1_y2008m03d16.1d_grid2D.nc NNATLYS12-V1_y2008m03d17.1d_grid2D.nc NNATLYS12-V1_y2008m03d18.1d_grid2D.nc NNATLYS12-V1_y2008m03d19.1d_grid2D.nc NNATLYS12-V1_y2008m03d20.1d_grid2D.nc NNATLYS12-V1_y2008m03d21.1d_grid2D.nc NNATLYS12-V1_y2008m03d22.1d_grid2D.nc NNATLYS12-V1_y2008m03d23.1d_grid2D.nc NNATLYS12-V1_y2008m03d24.1d_grid2D.nc NNATLYS12-V1_y2008m03d25.1d_grid2D.nc NNATLYS12-V1_y2008m03d26.1d_grid2D.nc NNATLYS12-V1_y2008m03d27.1d_grid2D.nc NNATLYS12-V1_y2008m03d28.1d_grid2D.nc NNATLYS12-V1_y2008m03d29.1d_grid2D.nc NNATLYS12-V1_y2008m03d30.1d_grid2D.nc NNATLYS12-V1_y2008m03d31.1d_grid2D.nc -max -o NNATLYS12-V1_y2008_mflxT
++ cdfmoy -l NNATLYS12-V1_y2004m03d01.1d_grid2D.nc NNATLYS12-V1_y2004m03d02.1d_grid2D.nc NNATLYS12-V1_y2004m03d03.1d_grid2D.nc NNATLYS12-V1_y2004m03d04.1d_grid2D.nc NNATLYS12-V1_y2004m03d05.1d_grid2D.nc NNATLYS12-V1_y2004m03d06.1d_grid2D.nc NNATLYS12-V1_y2004m03d07.1d_grid2D.nc NNATLYS12-V1_y2004m03d08.1d_grid2D.nc NNATLYS12-V1_y2004m03d09.1d_grid2D.nc NNATLYS12-V1_y2004m03d10.1d_grid2D.nc NNATLYS12-V1_y2004m03d11.1d_grid2D.nc NNATLYS12-V1_y2004m03d12.1d_grid2D.nc NNATLYS12-V1_y2004m03d13.1d_grid2D.nc NNATLYS12-V1_y2004m03d14.1d_grid2D.nc NNATLYS12-V1_y2004m03d15.1d_grid2D.nc NNATLYS12-V1_y2004m03d16.1d_grid2D.nc NNATLYS12-V1_y2004m03d17.1d_grid2D.nc NNATLYS12-V1_y2004m03d18.1d_grid2D.nc NNATLYS12-V1_y2004m03d19.1d_grid2D.nc NNATLYS12-V1_y2004m03d20.1d_grid2D.nc NNATLYS12-V1_y2004m03d21.1d_grid2D.nc NNATLYS12-V1_y2004m03d22.1d_grid2D.nc NNATLYS12-V1_y2004m03d23.1d_grid2D.nc NNATLYS12-V1_y2004m03d24.1d_grid2D.nc NNATLYS12-V1_y2004m03d25.1d_grid2D.nc NNATLYS12-V1_y2004m03d26.1d_grid2D.nc NNATLYS12-V1_y2004m03d27.1d_grid2D.nc NNATLYS12-V1_y2004m03d28.1d_grid2D.nc NNATLYS12-V1_y2004m03d29.1d_grid2D.nc NNATLYS12-V1_y2004m03d30.1d_grid2D.nc NNATLYS12-V1_y2004m03d31.1d_grid2D.nc -max -o NNATLYS12-V1_y2004_mflxT
++ mkdir -p /scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS/2006
++ mv NNATLYS12-V1_y2006_mflxT.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS/2006
++ mv NNATLYS12-V1_y2006_mflxT_minmax.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS/2006
++ cd /scratch/cnt0024/hmg2840/pverezem/TMP_MXL
++ rm -rf 2006
++ mkdir -p /scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS/2014
++ mv NNATLYS12-V1_y2014_mflxT.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS/2014
++ mv NNATLYS12-V1_y2014_mflxT_minmax.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS/2014
++ cd /scratch/cnt0024/hmg2840/pverezem/TMP_MXL
++ rm -rf 2014
++ mkdir -p /scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS/2015
++ mv NNATLYS12-V1_y2015_mflxT.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS/2015
++ mv NNATLYS12-V1_y2015_mflxT_minmax.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS/2015
++ cd /scratch/cnt0024/hmg2840/pverezem/TMP_MXL
++ rm -rf 2015
++ mkdir -p /scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS/2012
++ mv NNATLYS12-V1_y2012_mflxT.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS/2012
++ mv NNATLYS12-V1_y2012_mflxT_minmax.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS/2012
++ mkdir -p /scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS/2005
++ cd /scratch/cnt0024/hmg2840/pverezem/TMP_MXL
++ rm -rf 2012
++ mv NNATLYS12-V1_y2005_mflxT.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS/2005
++ mv NNATLYS12-V1_y2005_mflxT_minmax.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS/2005
++ cd /scratch/cnt0024/hmg2840/pverezem/TMP_MXL
++ rm -rf 2005
++ mkdir -p /scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS/2002
++ mv NNATLYS12-V1_y2002_mflxT.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS/2002
++ mv NNATLYS12-V1_y2002_mflxT_minmax.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS/2002
++ cd /scratch/cnt0024/hmg2840/pverezem/TMP_MXL
++ rm -rf 2002
++ mkdir -p /scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS/2008
++ mv NNATLYS12-V1_y2008_mflxT.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS/2008
++ mv NNATLYS12-V1_y2008_mflxT_minmax.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS/2008
++ cd /scratch/cnt0024/hmg2840/pverezem/TMP_MXL
++ rm -rf 2008
++ mkdir -p /scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS/2003
++ mv NNATLYS12-V1_y2003_mflxT.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS/2003
++ mv NNATLYS12-V1_y2003_mflxT_minmax.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS/2003
++ cd /scratch/cnt0024/hmg2840/pverezem/TMP_MXL
++ rm -rf 2003
++ mkdir -p /scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS/2011
++ mv NNATLYS12-V1_y2011_mflxT.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS/2011
++ mv NNATLYS12-V1_y2011_mflxT_minmax.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS/2011
++ cd /scratch/cnt0024/hmg2840/pverezem/TMP_MXL
++ rm -rf 2011
++ mkdir -p /scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS/2010
++ mv NNATLYS12-V1_y2010_mflxT.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS/2010
++ mkdir -p /scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS/2013
++ mv NNATLYS12-V1_y2013_mflxT.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS/2013
++ mv NNATLYS12-V1_y2010_mflxT_minmax.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS/2010
++ mv NNATLYS12-V1_y2013_mflxT_minmax.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS/2013
++ cd /scratch/cnt0024/hmg2840/pverezem/TMP_MXL
++ rm -rf 2010
++ cd /scratch/cnt0024/hmg2840/pverezem/TMP_MXL
++ rm -rf 2013
++ mkdir -p /scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS/2007
++ mv NNATLYS12-V1_y2007_mflxT.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS/2007
++ mv NNATLYS12-V1_y2007_mflxT_minmax.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS/2007
++ cd /scratch/cnt0024/hmg2840/pverezem/TMP_MXL
++ rm -rf 2007
++ mkdir -p /scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS/2009
++ mv NNATLYS12-V1_y2009_mflxT.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS/2009
++ mv NNATLYS12-V1_y2009_mflxT_minmax.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS/2009
++ cd /scratch/cnt0024/hmg2840/pverezem/TMP_MXL
++ rm -rf 2009
++ mkdir -p /scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS/2004
++ mv NNATLYS12-V1_y2004_mflxT.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS/2004
++ mv NNATLYS12-V1_y2004_mflxT_minmax.nc /scratch/cnt0024/hmg2840/pverezem/NNATLYS12/NNATLYS12-V1-DIAGS/2004
++ cd /scratch/cnt0024/hmg2840/pverezem/TMP_MXL
++ rm -rf 2004
