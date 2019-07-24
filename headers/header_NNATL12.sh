@@ -5,7 +5,7 @@
 
 # Name of config and case
 CONFIG=NNATL12
-CASE=NAD14
+CASE=SG1
 
 # Frequency of the output used in this case
 freq=5d

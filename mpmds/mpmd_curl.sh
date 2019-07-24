@@ -17,7 +17,7 @@ ulimit -s unlimited
 
 cmd="mpirun --map-by node"
 
-for y in {1993..2015} ; do
+for y in {1992..2015} ; do
   cmd="$cmd -np 1 ../curl.sh $y 0 :"
 done
 cmd=${cmd%:}

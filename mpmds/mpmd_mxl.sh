@@ -17,7 +17,7 @@ ulimit -s unlimited
 
 cmd="mpirun --map-by node"
 
-for y in {2002..2015} ; do
+for y in {1992..2015} ; do
   cmd="$cmd -np 1 ../spat_mxl.sh $y :"
 done
 cmd=${cmd%:}

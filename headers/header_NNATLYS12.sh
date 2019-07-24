@@ -9,6 +9,7 @@ CASE=V1
 
 # Frequency of the output used in this case
 freq=1d
+freq2=1d
 
 CONFCASE=${CONFIG}-${CASE}
 
@@ -19,6 +20,7 @@ ts=1 # beacuse in GLORYS data they are already divided by 86400 s
 # Paths to data and codes to work with
 IDIR=/scratch/cnt0024/hmg2840/pverezem/${CONFCASE}
 SWDIR=$WORKDIR/NNATLYS12-V1
+SWDIR2=$WORKDIR/NNATLYS12-V1
 DIAGDIR=$WORKDIR/$CONFIG/${CONFCASE}-DIAGS
 
 # define sections for particular config-case
