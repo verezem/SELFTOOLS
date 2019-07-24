@@ -19,14 +19,14 @@ fi
 # Calculation of yearly means with cdfmoy for exact files we have in diags dir
 mkdir -p $WORKDIR/TMP$$
 cd $WORKDIR/TMP$$
-for year in {1992..2015} ; do
+for year in {1993..2015} ; do
 #cdfmoy -l $DIAGDIR/${year}/${CONFCASE}_y${year}_${var}.nc -o ${CONFCASE}_y${year}_${var}
 ln -sf $DIAGDIR/${year}/${CONFCASE}_y${year}_${var}.nc .
 done
 
-mkdir -p $DIAGDIR/1992-2015
+mkdir -p $DIAGDIR/1993-2015
 
-ncrcat ${CONFCASE}_y????_${var}.nc $DIAGDIR/1992-2015/${CONFCASE}_y1992-2015_${var}.nc
+ncrcat ${CONFCASE}_y????_${var}.nc $DIAGDIR/1993-2015/${CONFCASE}_y1993-2015_${var}.nc
 
 cd $WORKDIR
 rm -rf TMP$$   # in order to erase tmp directory

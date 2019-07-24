@@ -4,7 +4,7 @@ set -x
 
 # This is a script to plot fresh water balance nicely with Python fwbal.py script.
 
-source ./header.sh
+source /scratch/cnt0024/hmg2840/pverezem/DEV/SELFTOOLS/headers/header.sh
 
 # open tunnel through meolkerg for machine without direct acces to ige-meom-drakkar
 open_tunnel() {

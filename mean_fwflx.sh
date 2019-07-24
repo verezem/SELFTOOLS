@@ -14,7 +14,7 @@ set -x
 # lv=2.5e6 - latent heat of vaporization [J/kg] or [m2/s2]
 # ts=86400 - number of seconds per day 
 
-source ./header.sh
+source /scratch/cnt0024/hmg2840/pverezem/DEV/SELFTOOLS/headers/header.sh
  
 # usage instructions
 if [ $# = 0 ] ; then

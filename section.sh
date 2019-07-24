@@ -8,7 +8,7 @@ ulimit -s unlimited
 # cdf_xtract_brokenline
 # Uses CDFTOOLSv4
 
-source ./header.sh
+source /scratch/cnt0024/hmg2840/pverezem/DEV/SELFTOOLS/headers/header.sh
  
 # usage instructions
 if [ $# = 0 ] ; then
@@ -35,16 +35,16 @@ for mon in {01..12} ; do
         cdfmoy -l ${CONFCASE}_y${year}m${mon}d??.${freq}_${typ}.nc -o ${CONFCASE}_y${year}m${mon}_${typ}
     done
     if [ -z "$exsal" ]; then
-    cdf_xtrac_brokenline -t ${CONFCASE}_y${year}m${mon}_${GRID1}.nc -u ${CONFCASE}_y${year}m${mon}_${GRIDU}.nc -v ${CONFCASE}_y${year}m${mon}_${GRIDV}.nc -mxl ${CONFCASE}_y${year}m${mon}_${GRID2}.nc -l AR7W.short.dat 60N.short.dat ovide.short.dat A24N.short.dat -mld -vt -vecrot -o ${CONFCASE}_y${year}m${mon}_
+    cdf_xtrac_brokenline -t ${CONFCASE}_y${year}m${mon}_${GRID1}.nc -u ${CONFCASE}_y${year}m${mon}_${GRIDU}.nc -v ${CONFCASE}_y${year}m${mon}_${GRIDV}.nc -mxl ${CONFCASE}_y${year}m${mon}_${GRID2}.nc -l AR7W.short.dat 60N.short.dat ovide.short.dat -mld -vt -vecrot -o ${CONFCASE}_y${year}m${mon}_
     else
     exsal="-s ${CONFCASE}_y${year}m${mon}_${GRIDS}.nc" 
-    cdf_xtrac_brokenline -t ${CONFCASE}_y${year}m${mon}_${GRID1}.nc $exsal -u ${CONFCASE}_y${year}m${mon}_${GRIDU}.nc -v ${CONFCASE}_y${year}m${mon}_${GRIDV}.nc -mxl ${CONFCASE}_y${year}m${mon}_${GRID2}.nc -l AR7W.short.dat 60N.short.dat ovide.short.dat A24N.short.dat -mld -vt -vecrot -o ${CONFCASE}_y${year}m${mon}_
+    cdf_xtrac_brokenline -t ${CONFCASE}_y${year}m${mon}_${GRID1}.nc $exsal -u ${CONFCASE}_y${year}m${mon}_${GRIDU}.nc -v ${CONFCASE}_y${year}m${mon}_${GRIDV}.nc -l AR7W.short.dat 60N.short.dat ovide.short.dat -vt -vecrot -o ${CONFCASE}_y${year}m${mon}_
     fi
 done
 
 # Concatenation and storing
 mkdir -p $DIAGDIR/$year
-for sec in AR7W 60N ovide A24N ; do
+for sec in AR7W 60N ovide	 ; do
 #for sec in A24N ; do
 ncrcat -O -h ${CONFCASE}_y${year}m??_${sec}.nc $DIAGDIR/${year}/${CONFCASE}_y${year}_${sec}.nc  # ncrcat -h - is no history
 done

@@ -23,7 +23,8 @@ mkdir -p $WRKDIR # -p is to avoid mkdir if exists, and create a parent if needed
 
 
 #for var in $GRIDU $GRIDV $GRID1; do
-for var in T ; do
+#for var in T ; do
+for var in T S U V ; do
 cd $WRKDIR
 ln -sf $SWDIR/$year/${CONFCASE}_y${year}m??*.${freq}_${var}.nc ./
 cp $IDIR/${CONFIG}_mesh_zgr.nc mesh_zgr.nc

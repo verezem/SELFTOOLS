@@ -5,7 +5,7 @@ set -x
 # This is a script to calculate mean yearly values
 # Uses CDFTOOLSv4
 
-source ./header.sh
+source /scratch/cnt0024/hmg2840/pverezem/DEV/SELFTOOLS/headers/header.sh
 
 # usage instructions
 if [ $# = 0 ] ; then

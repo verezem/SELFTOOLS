@@ -6,7 +6,7 @@ ulimit -s unlimited
 # This is a script to calculate SSH over domain mean values, [m]
 # Uses CDFTOOLSv4
 
-source ./header.sh
+source /scratch/cnt0024/hmg2840/pverezem/DEV/SELFTOOLS/headers/header.sh
  
 # usage instructions
 if [ $# = 0 ] ; then
@@ -33,7 +33,8 @@ ln -sf $SWDIR/$year/${CONFCASE}_y${year}m??*.${freq}_${GRID1}.nc ./
 for mon in {01..12} ; do
 cdfmoy -l ${CONFCASE}_y${year}m${mon}*.${freq}_${GRID1}.nc -o ${CONFCASE}_y${year}m${mon}_${var}
 done
-cdfmoy -l ${CONFCASE}_y${year}m${mon}_${var}.nc -o ${CONFCASE}_y${year}_${var}
+ncrcat ${CONFCASE}_y${year}m*_${var}.nc ${CONFCASE}_y${year}_${var}.nc
+#cdfmoy -l ${CONFCASE}_y${year}m${mon}_${var}.nc -o ${CONFCASE}_y${year}_${var}
 
 # both temperature and salinity needs to be averaged spatially with cdfmean
 # any of them are averaged daily or mothly initially

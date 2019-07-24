@@ -5,7 +5,7 @@ set -x
 # This is a script to calculate timeseries of MLD in Labrador and Irminger Seas 
 # Uses CDFTOOLSv4
 
-source ./header.sh
+source /scratch/cnt0024/hmg2840/pverezem/DEV/SELFTOOLS/headers/header.sh
 # usage instructions
 if [ $# = 0 ] ; then
    echo " USAGE: $(basename $0) <year> "

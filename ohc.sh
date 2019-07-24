@@ -6,7 +6,7 @@ ulimit -s unlimited
 # This is a script to calculate SSH over domain mean values, [m]
 # Uses CDFTOOLSv4
 
-source ./header.sh
+source /scratch/cnt0024/hmg2840/pverezem/DEV/SELFTOOLS/headers/header.sh
  
 # usage instructions
 if [ $# = 0 ] ; then
@@ -32,14 +32,14 @@ $cmdcp # command set in header for extra copy (mask file f.ex.)
 # Main body
 for mon in {01..12} ; do
 cdfmoy -l ${CONFCASE}_y${year}m${mon}*.${freq}_gridT.nc -o ${CONFCASE}_y${year}m${mon}_gridT
-cdfheatc -f ${CONFCASE}_y${year}m${mon}_gridT.nc -zoom 0 0 0 0 1 31 -o ${CONFCASE}_y${year}m${mon}_ohc200.nc 
-#cdfheatc -f ${CONFCASE}_y${year}m${mon}_gridT.nc -zoom 0 0 0 0 1 27 -o ${CONFCASE}_y${year}m${mon}_ohc200.nc 
-cdfheatc -f ${CONFCASE}_y${year}m${mon}_gridT.nc -zoom 0 0 0 0 1 43 -o ${CONFCASE}_y${year}m${mon}_ohc700.nc
-#cdfheatc -f ${CONFCASE}_y${year}m${mon}_gridT.nc -zoom 0 0 0 0 1 34 -o ${CONFCASE}_y${year}m${mon}_ohc700.nc
-cdfheatc -f ${CONFCASE}_y${year}m${mon}_gridT.nc -zoom 0 0 0 0 43 51 -o ${CONFCASE}_y${year}m${mon}_ohc1500.nc
-#cdfheatc -f ${CONFCASE}_y${year}m${mon}_gridT.nc -zoom 0 0 0 0 34 38 -o ${CONFCASE}_y${year}m${mon}_ohc1500.nc
-cdfheatc -f ${CONFCASE}_y${year}m${mon}_gridT.nc -zoom 0 0 0 0 51 75 -o ${CONFCASE}_y${year}m${mon}_ohc3000.nc
-#cdfheatc -f ${CONFCASE}_y${year}m${mon}_gridT.nc -zoom 0 0 0 0 38 50 -o ${CONFCASE}_y${year}m${mon}_ohc3000.nc
+#cdfheatc -f ${CONFCASE}_y${year}m${mon}_gridT.nc -zoom 0 0 0 0 1 31 -o ${CONFCASE}_y${year}m${mon}_ohc200.nc 
+cdfheatc -f ${CONFCASE}_y${year}m${mon}_gridT.nc -zoom 0 0 0 0 1 27 -o ${CONFCASE}_y${year}m${mon}_ohc200.nc 
+#cdfheatc -f ${CONFCASE}_y${year}m${mon}_gridT.nc -zoom 0 0 0 0 1 43 -o ${CONFCASE}_y${year}m${mon}_ohc700.nc
+cdfheatc -f ${CONFCASE}_y${year}m${mon}_gridT.nc -zoom 0 0 0 0 1 34 -o ${CONFCASE}_y${year}m${mon}_ohc700.nc
+#cdfheatc -f ${CONFCASE}_y${year}m${mon}_gridT.nc -zoom 0 0 0 0 43 51 -o ${CONFCASE}_y${year}m${mon}_ohc1500.nc
+cdfheatc -f ${CONFCASE}_y${year}m${mon}_gridT.nc -zoom 0 0 0 0 34 38 -o ${CONFCASE}_y${year}m${mon}_ohc1500.nc
+#cdfheatc -f ${CONFCASE}_y${year}m${mon}_gridT.nc -zoom 0 0 0 0 51 75 -o ${CONFCASE}_y${year}m${mon}_ohc3000.nc
+cdfheatc -f ${CONFCASE}_y${year}m${mon}_gridT.nc -zoom 0 0 0 0 38 50 -o ${CONFCASE}_y${year}m${mon}_ohc3000.nc
 done
 
 for dep in 200 700 1500 3000 ; do
