@@ -5,7 +5,7 @@
 
 # Name of config and case
 CONFIG=NNATL12
-CASE=SG1
+CASE=MP4.21
 
 # Frequency of the output used in this case
 freq=1d
@@ -37,7 +37,7 @@ section_file=section.dat
 #eof
 
 # grid type and varaible type
-GRID1=gridT #if 1d output is used
+GRID1=gridTsurf #if 1d output is used
 GRIDU=gridU
 GRIDV=gridV
 GRID2=flxT

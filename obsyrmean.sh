@@ -32,21 +32,21 @@ for typ in ${sal}mean ${sal} ; do
 done
 
 #1993 - for NNATL12, 1993 - for NNATLYS12
-mkdir -p $DIAGDIR/1993-2010
+mkdir -p $DIAGDIR/1993-2015
 
-for yr in {1993..2010} ; do
+for yr in {1993..2015} ; do
 ln -sf $DIAGDIR/${yr}/${CONFCASE}_y????_0m${sat}.nc .
 #ln -sf $DIAGDIR/${yr}/${CONFCASE}_y????_${SIC}.nc .
 #ln -sf $DIAGDIR/${yr}/${CONFCASE}_y????_${sat}.nc .
 ln -sf $DIAGDIR/${yr}/${CONFCASE}_y????_0m${sat}mean.nc .
 #ln -sf $DIAGDIR/${yr}/${CONFCASE}_y????_${sat}mean.nc .
 done
-#ncrcat -O ${CONFCASE}_y????_${SIC}.nc $DIAGDIR/1993-2010/${CONFCASE}_y1993-2010_${SIC}.nc
+#ncrcat -O ${CONFCASE}_y????_${SIC}.nc $DIAGDIR/1993-2003/${CONFCASE}_y1993-2003_${SIC}.nc
 # Concatenate them betwenn each other for the whole period of run
 for typ in ${sat}mean ${sat} ; do 
-    ncrcat -O ${CONFCASE}_y????_0m${typ}.nc $DIAGDIR/1993-2010/${CONFCASE}_y1993-2010_0m${typ}.nc
-    #ncrcat -O ${CONFCASE}_y????_${typ}.nc ${CONFCASE}_y1993-2010_${typ}.nc
-    #mv ${CONFCASE}_y1993-2010_${typ}.nc $DIAGDIR/1993-2010/
+    ncrcat -O ${CONFCASE}_y????_0m${typ}.nc $DIAGDIR/1993-2015/${CONFCASE}_y1993-2015_0m${typ}.nc
+    #ncrcat -O ${CONFCASE}_y????_${typ}.nc ${CONFCASE}_y1993-2003_${typ}.nc
+    #mv ${CONFCASE}_y1993-2003_${typ}.nc $DIAGDIR/1993-2003/
 done
 cd $WORKDIR
 rm -rf TMP$$   # in order to erase tmp directory

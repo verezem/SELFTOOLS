@@ -15,7 +15,7 @@ cd $WORKDIR/TMP$$
 for var in $GRIDU $GRIDV ; do
    for mon in {01..12} ; do
    mkdir -p $DIAGDIR/${mon}
-      for year in {1992..2015} ; do
+      for year in {1993..2015} ; do
          ln -sf $DIAGDIR/${year}/${CONFCASE}_y${year}m${mon}.${freq}_50m${var}.nc ./
       done
       cdfmoy_weighted -l ${CONFCASE}_y????m${mon}.${freq}_50m${var}.nc -o $DIAGDIR/${mon}/${CONFCASE}_m${mon}_15m${var}.nc 

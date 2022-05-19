@@ -7,7 +7,7 @@
 #SBATCH -J sec_diag
 #SBATCH -e zsec.e%j
 #SBATCH -o zsec.o%j
-#SBATCH --time=00:30:00
+#SBATCH --time=00:50:00
 ##SBATCH --dependency=singleton
 #SBATCH --exclusive
 
@@ -17,7 +17,7 @@ ulimit -s unlimited
 
 cmd="mpirun --map-by node"
 
-for y in {1992..2015} ; do
+for y in {1993..2015} ; do
   cmd="$cmd -np 1 ./section.sh $y :"
 done
 cmd=${cmd%:}

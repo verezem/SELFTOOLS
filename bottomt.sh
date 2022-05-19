@@ -23,15 +23,16 @@ mkdir -p $WRKDIR # -p is to avoid mkdir if exists, and create a parent if needed
 
 
 cd $WRKDIR
-ln -sf $SWDIR/$year/${CONFCASE}_y${year}m??*.${freq}_gridT.nc ./
+ln -sf $SWDIR/$year/${CONFCASE}_y${year}m??*.${freq}_${GRID1}.nc ./
 cp $IDIR/${CONFIG}_mesh_zgr.nc mesh_zgr.nc
 cp $IDIR/${CONFIG}_mesh_hgr.nc mesh_hgr.nc
-cp $IDIR/${CONFIG}_byte_mask.nc mask.nc
+#cp $IDIR/${CONFIG}_byte_mask.nc mask.nc
+cp $IDIR/mesh_mask.nc mask.nc
 $cmdcp # command set in header for extra copy (mask file f.ex.)
 
 # Main body
-for fl in ${CONFCASE}_y${year}m??*.${freq}_gridT.nc ; do
-out=$(echo $fl | sed -e "s/gridT/botT/g")
+for fl in ${CONFCASE}_y${year}m??*.${freq}_${GRID1}.nc ; do
+out=$(echo $fl | sed -e "s/gridTsurf/botT/g")
 cdfbottom -f $fl -p T -o $out
 done
 cdfmoy -l ${CONFCASE}_y${year}m??*.${freq}_botT.nc -o ${CONFCASE}_y${year}_botT

@@ -37,15 +37,15 @@ for mon in {01..12} ; do
     for typ in $GRID1 $GRIDS ; do
         cdfmoy -l ${CONFCASE}_y${year}m${mon}d??.${freq}_${typ}.nc -o ${CONFCASE}_y${year}m${mon}_${typ}
     done
-    exsal="-s ${CONFCASE}_y${year}m${mon}_${GRIDS}.nc"
-    cdfcensus -t ${CONFCASE}_y${year}m${mon}_${GRID1}.nc $exsal $LAB -klim 0 40 -srange 33 36.0 0.01 -trange -2 18 0.05 -o ${CONFCASE}_y${year}m${mon}_LABts2000.nc 
-    cdfcensus -t ${CONFCASE}_y${year}m${mon}_${GRID1}.nc $exsal $IRM -klim 0 40 -srange 33 36.0 0.01 -trange -2 18 0.05 -o ${CONFCASE}_y${year}m${mon}_IRMts2000.nc 
-    cdfcensus -t ${CONFCASE}_y${year}m${mon}_${GRID1}.nc $exsal $ARC -klim 0 40 -srange 33 36.0 0.01 -trange -2 18 0.05 -o ${CONFCASE}_y${year}m${mon}_ARCts2000.nc 
-    cdfcensus -t ${CONFCASE}_y${year}m${mon}_${GRID1}.nc $exsal -klim 0 40 -srange 33 36 0.01 -trange -2 18 0.05 -o ${CONFCASE}_y${year}m${mon}_NATLts2000.nc 
-    cdfcensus -t ${CONFCASE}_y${year}m${mon}_${GRID1}.nc $exsal $LAB -klim 40 50 -srange 33 36.0 0.01 -trange -2 18 0.05 -o ${CONFCASE}_y${year}m${mon}_LABtsbot.nc
-    cdfcensus -t ${CONFCASE}_y${year}m${mon}_${GRID1}.nc $exsal $IRM -klim 40 50 -srange 33 36.0 0.01 -trange -2 18 0.05 -o ${CONFCASE}_y${year}m${mon}_IRMtsbot.nc  
-    cdfcensus -t ${CONFCASE}_y${year}m${mon}_${GRID1}.nc $exsal $ARC -klim 40 50 -srange 33 36.0 0.01 -trange -2 18 0.05 -o ${CONFCASE}_y${year}m${mon}_ARCtsbot.nc  
-    cdfcensus -t ${CONFCASE}_y${year}m${mon}_${GRID1}.nc $exsal -klim 40 50 -srange 33 36 0.01 -trange -2 18 0.05 -o ${CONFCASE}_y${year}m${mon}_NATLtsbot.nc
+    #exsal="-s ${CONFCASE}_y${year}m${mon}_${GRIDS}.nc"
+    cdfcensus -t ${CONFCASE}_y${year}m${mon}_${GRID1}.nc $exsal $LAB -klim 0 55 -srange 33 36.0 0.01 -trange -2 18 0.05 -o ${CONFCASE}_y${year}m${mon}_LABts2000.nc 
+    cdfcensus -t ${CONFCASE}_y${year}m${mon}_${GRID1}.nc $exsal $IRM -klim 0 55 -srange 33 36.0 0.01 -trange -2 18 0.05 -o ${CONFCASE}_y${year}m${mon}_IRMts2000.nc 
+    cdfcensus -t ${CONFCASE}_y${year}m${mon}_${GRID1}.nc $exsal $ARC -klim 0 55 -srange 33 36.0 0.01 -trange -2 18 0.05 -o ${CONFCASE}_y${year}m${mon}_ARCts2000.nc 
+    cdfcensus -t ${CONFCASE}_y${year}m${mon}_${GRID1}.nc $exsal -klim 0 55 -srange 33 36 0.01 -trange -2 18 0.05 -o ${CONFCASE}_y${year}m${mon}_NATLts2000.nc 
+    cdfcensus -t ${CONFCASE}_y${year}m${mon}_${GRID1}.nc $exsal $LAB -klim 55 75 -srange 33 36.0 0.01 -trange -2 18 0.05 -o ${CONFCASE}_y${year}m${mon}_LABtsbot.nc
+    cdfcensus -t ${CONFCASE}_y${year}m${mon}_${GRID1}.nc $exsal $IRM -klim 55 75 -srange 33 36.0 0.01 -trange -2 18 0.05 -o ${CONFCASE}_y${year}m${mon}_IRMtsbot.nc  
+    cdfcensus -t ${CONFCASE}_y${year}m${mon}_${GRID1}.nc $exsal $ARC -klim 55 75 -srange 33 36.0 0.01 -trange -2 18 0.05 -o ${CONFCASE}_y${year}m${mon}_ARCtsbot.nc  
+    cdfcensus -t ${CONFCASE}_y${year}m${mon}_${GRID1}.nc $exsal -klim 55 75 -srange 33 36 0.01 -trange -2 18 0.05 -o ${CONFCASE}_y${year}m${mon}_NATLtsbot.nc
 done
 
 # Concatenation and storing

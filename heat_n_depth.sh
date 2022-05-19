@@ -34,6 +34,7 @@ for flx in ${CONFCASE}_y${year}m*.${freq}_${GRID2}.nc ; do
    out=$(echo $flx | sed -e "s/$GRID2/depflx/g") 
    ncks -v somxl010,sohefldo,$LHF,$SHF,nav_lat,nav_lon $flx $out
 done
+#ncrcat ${CONFCASE}_y${year}m??d??.${freq}_depflx.nc ${CONFCASE}_y${year}_depflx.nc
 for mon in {01..12} ; do
     cdfmoy -l ${CONFCASE}_y${year}m${mon}d??.${freq}_depflx.nc -o ${CONFCASE}_y${year}m${mon}_depflx
 done

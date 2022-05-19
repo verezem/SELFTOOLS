@@ -32,7 +32,8 @@ cp $IDIR/${CONFIG}_byte_mask.nc mask.nc
 # Main body
 for mon in {01..12} ; do
     for typ in $GRID1 $GRIDS $GRID2 $GRIDU $GRIDV ; do
-        cdfmoy -l ${CONFCASE}_y${year}m${mon}d??.${freq}_${typ}.nc -o ${CONFCASE}_y${year}m${mon}_${typ}
+       cdfmoy -l ${CONFCASE}_y${year}m${mon}d??.${freq}_${typ}.nc -o ${CONFCASE}_y${year}m${mon}_${typ}
+      # mv ${CONFCASE}_y${year}m${mon}d??.${freq}_${typ}.nc ${CONFCASE}_y${year}m${mon}_${typ}.nc
     done
     if [ -z "$exsal" ]; then
     cdf_xtrac_brokenline -t ${CONFCASE}_y${year}m${mon}_${GRID1}.nc -u ${CONFCASE}_y${year}m${mon}_${GRIDU}.nc -v ${CONFCASE}_y${year}m${mon}_${GRIDV}.nc -mxl ${CONFCASE}_y${year}m${mon}_${GRID2}.nc -l AR7W.short.dat 60N.short.dat ovide.short.dat -mld -vt -vecrot -o ${CONFCASE}_y${year}m${mon}_

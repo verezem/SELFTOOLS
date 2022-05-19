@@ -31,7 +31,7 @@ cp $IDIR/${CONFIG}_mesh_hgr.nc mesh_hgr.nc
 cp $IDIR/${CONFIG}_byte_mask.nc mask.nc
 
 # Main body
-for mon in {01..12} ; do
+for mon in {05..06} ; do
 for dd in {01..31} ; do
     if [ -z "$exsal" ]; then
     cdf_xtrac_brokenline -t ${CONFCASE}_y${year}m${mon}d${dd}.${freq}_${GRID1}.nc -u ${CONFCASE}_y${year}m${mon}d${dd}.${freq}_${GRIDU}.nc -v ${CONFCASE}_y${year}m${mon}d${dd}.${freq}_${GRIDV}.nc -l denst.dat -vt -vecrot -xtra ${CONFCASE}_y${year}m${mon}d${dd}.${freq}_sigma0.nc vosigmai -o ${CONFCASE}_y${year}m${mon}d${dd}_

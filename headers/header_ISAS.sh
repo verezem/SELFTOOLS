@@ -4,7 +4,7 @@
 # runnning cdftools and other self-written tools.
 
 # Name of config and case
-CONFIG=NNATL12
+CONFIG=NNATLYS12
 CASE=ISAS
 
 # Frequency of the output used in this case
@@ -14,12 +14,15 @@ CONFCASE=${CONFIG}-${CASE}
 
 # Paths to data and codes to work with
 IDIR=/scratch/cnt0024/hmg2840/pverezem/${CONFCASE}
-SWDIR=$WORKDIR/NNATL12-ISAS
+SWDIR=$WORKDIR/${CONFCASE}
 DIAGDIR=$WORKDIR/$CONFIG/${CONFCASE}-DIAGS
 
-lev1000=47
+lev1000=35
 # grid type and varaible type
 GRID1=gridT
 GRIDS=gridS
 GRIDU=gridU
 GRIDV=gridV
+
+# define variable names for config
+exsal="-s ${CONFCASE}_y${year}m${mon}d${dd}_${GRIDS}.nc"

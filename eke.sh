@@ -34,7 +34,7 @@ $cmdcp # command set in header for extra copy (mask file f.ex.)
 
 # Main body
 
-cdfeke -u ${CONFCASE}_y${year}.l1_m${GRIDU}.nc -u2 ${CONFCASE}_y${year}.l1_m${GRIDU}2.nc -v ${CONFCASE}_y${year}.l1_m${GRIDV}.nc -v2 ${CONFCASE}_y${year}.l1_m${GRIDV}2.nc -t ${CONFCASE}_y${year}.l1_m${GRID1}2.nc -surf -mke -o ${CONFCASE}_y${year}_eke.nc 
+cdfeke -u ${CONFCASE}_y${year}.l1_m${GRIDU}.nc -u2 ${CONFCASE}_y${year}.l1_m${GRIDU}2.nc -v ${CONFCASE}_y${year}.l1_m${GRIDV}.nc -v2 ${CONFCASE}_y${year}.l1_m${GRIDV}2.nc -t ${CONFCASE}_y${year}.l1_m${GRID1}.nc -surf -mke -o ${CONFCASE}_y${year}_eke.nc 
  
 # Storing
 mkdir -p $DIAGDIR/$year

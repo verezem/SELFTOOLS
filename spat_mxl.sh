@@ -24,16 +24,16 @@ mkdir -p $WRKDIR # -p is to avoid mkdir if exists, and create a parent if needed
 
 #for var in T ; do
 cd $WRKDIR
-ln -sf $SWDIR/$year/${CONFCASE}_y${year}m03*.${freq}_grid2D.nc ./
-#ln -sf $SWDIR/$year/${CONFCASE}_y${year}m03*.${freq}_flxT.nc ./
+#ln -sf $SWDIR/$year/${CONFCASE}_y${year}m03*.${freq}_grid2D.nc ./
+ln -sf $SWDIR/$year/${CONFCASE}_y${year}m03*.${freq}_flxT.nc ./
 cp $IDIR/${CONFIG}_mesh_zgr.nc mesh_zgr.nc
 cp $IDIR/${CONFIG}_mesh_hgr.nc mesh_hgr.nc
 cp $IDIR/${CONFIG}_byte_mask.nc mask.nc
 $cmdcp # command set in header for extra copy (mask file f.ex.)
 
 # Main body
-#cdfmoy -l ${CONFCASE}_y${year}m03*.${freq}_flxT.nc -max -o ${CONFCASE}_y${year}_mflxT
-cdfmoy -l ${CONFCASE}_y${year}m03*.${freq}_grid2D.nc -max -o ${CONFCASE}_y${year}_mflxT
+cdfmoy -l ${CONFCASE}_y${year}m03*.${freq}_flxT.nc -max -o ${CONFCASE}_y${year}_mflxT
+#cdfmoy -l ${CONFCASE}_y${year}m03*.${freq}_grid2D.nc -max -o ${CONFCASE}_y${year}_mflxT
 
 # Storing
 mkdir -p $DIAGDIR/$year

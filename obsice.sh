@@ -6,7 +6,8 @@ ulimit -s unlimited
 # This is a script to calculate SSH over domain mean values, [m]
 # Uses CDFTOOLSv4
 
-source /scratch/cnt0024/hmg2840/pverezem/DEV/SELFTOOLS/headers/header.sh
+#source /scratch/cnt0024/hmg2840/pverezem/DEV/SELFTOOLS/headers/header.sh
+source /scratch/cnt0024/hmg2840/pverezem/DEV/SELFTOOLS/headers/header_CCI.sh
  
 # usage instructions
 if [ $# = 0 ] ; then
@@ -35,6 +36,14 @@ done
 
 ncrcat ${CONFCASE}_y${year}m??_${SIC}.nc ${CONFCASE}_y${year}_${SIC}.nc
 
+for fl in ${CONFCASE}_y${year}m??_${SIC}.nc ; do
+    out=$(echo $fl | sed -e "s/${SIC}/${SIC}mean/g")  # !! Were are setting a new variable name using the name of initial one using a "serial editor"
+    cdfmean -f $fl -v ${SIC} -p T -o $out $extra
+done
+ncrcat ${CONFCASE}_y${year}m*_${SIC}mean.nc ${CONFCASE}_y${year}_${SIC}mean.nc
+
 mv ${CONFCASE}_y${year}_${SIC}.nc $DIAGDIR/${year}/
+mv ${CONFCASE}_y${year}_${SIC}mean.nc $DIAGDIR/${year}/
+
 cd $WORKDIR/TMP_ICE
 rm -rf $year   # in order to erase tmp directory

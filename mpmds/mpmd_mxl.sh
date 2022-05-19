@@ -1,13 +1,13 @@
 #!/bin/bash
 #SBATCH --nodes=1
 #SBATCH --ntasks=24
-#SBATCH --ntasks-per-node=24
+#SBATCH --ntasks-per-node=28
 #SBATCH --threads-per-core=1
-#SBATCH --constraint=HSW24
+#SBATCH --constraint=BDW28
 #SBATCH -J spatmxl
 #SBATCH -e zmxl.e%j
 #SBATCH -o zmxl.o%j
-#SBATCH --time=00:15:00
+#SBATCH --time=00:20:00
 ##SBATCH --dependency=singleton
 #SBATCH --exclusive
 
@@ -17,8 +17,8 @@ ulimit -s unlimited
 
 cmd="mpirun --map-by node"
 
-for y in {1992..2015} ; do
-  cmd="$cmd -np 1 ../spat_mxl.sh $y :"
+for y in {1993..2015} ; do
+  cmd="$cmd -np 1 ./heat_n_depth.sh $y :"
 done
 cmd=${cmd%:}
 $cmd

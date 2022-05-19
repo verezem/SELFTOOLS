@@ -17,7 +17,7 @@ lv=2.5e6 # latent heat of vaporization [J/kg] or [m2/s2]
 ts=1 # beacuse in GLORYS data they are already divided by 86400 s
 
 # Paths to data and codes to work with
-IDIR=/storage/tartar/DATA/GLORYS2V4
+IDIR=/scratch/cnt0024/hmg2840/pverezem/${CONFCASE}
 SWDIR=$WORKDIR/TMP_GLO
 DIAGDIR=$WORKDIR/$CONFIG/${CONFCASE}-DIAGS
 
@@ -36,11 +36,18 @@ EOF
 eof
 
 # define variable names for config
-extra="-M ORCA025.L75-MJM91_byte_mask.nc_masked tmask"
-cmdcp="cp $IDIR/ORCA025.L75-MJM91_byte_mask.nc_masked ." #copying special files for particular case
+#extra="-M ORCA025.L75-MJM91_byte_mask.nc_masked tmask"
+#cmdcp="cp $IDIR/ORCA025.L75-MJM91_byte_mask.nc_masked ." #copying special files for particular case
 
 # grid type and varaible type
+GRID1=gridT
+GRIDS=gridS
+GRIDU=gridU
+GRIDV=gridV
+GRIDW=gridW
 GRID=grid2D
+SST=votemper
+SSS=vosaline
 SSH=sossheig
 LHF=socelatf
 PRECIP=sowaprec
